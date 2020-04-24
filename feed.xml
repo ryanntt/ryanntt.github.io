@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryan Nguyen</title>
+    <description>Portfolio and Blog of Ryan Nguyen, an UX designer in Sydney.</description>
+    <link>https://ryanntt.com/</link>
+    <atom:link href="https://ryanntt.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Start with Objectives, not Problems</title>
+        <description>&lt;p&gt;This is &lt;strong&gt;2nd article&lt;/strong&gt; of series &lt;strong&gt;Backward Thinking in Problem Solving&lt;/strong&gt; (&lt;a href=&quot;https://medium.com/design-notebook/backward-thinking-in-problem-solving-part-1-introduction-75ee71829abb&quot;&gt;Backward Thinking in Problem Solving — Part 1: Introduction&lt;/a&gt;). We are usually given problems to solve, which might make understanding problem further appealing as the immediate step. However, what we want to start any project with should be objectives.&lt;/p&gt;
+
+&lt;figure class=&quot;text-width&quot;&gt;
+    &lt;img src=&quot;https://cdn-images-1.medium.com/max/11674/1*-QvTTBvQrpZ6o3G4L-PWSQ.jpeg&quot; /&gt;
+    &lt;figcaption&gt;Start with Objectives, not Problems (Photo by &lt;a href=&quot;https://unsplash.com/photos/aOYA7D3fse8&quot; target=&quot;_blank&quot;&gt;rawpixel&lt;/a&gt;)&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The first step of any project is planning, which include setting objectives. Not only when we work backwards but also in any problem-solving framework, objectives are critical to the success of project as good objectives describe what success look like and will be used as north star through out the process.&lt;/p&gt;
+
+&lt;p&gt;If you start a project by dwelling into problems, you might get bogged down by numerous issues at the end of analysis phase. Only a few of these are worth solving or can be solved within your time frame. You want the problem analysis to help you find promising solution, not just root causes.&lt;/p&gt;
+
+&lt;h3 id=&quot;stay-relevant&quot;&gt;Stay relevant&lt;/h3&gt;
+
+&lt;p&gt;It feels good to analyse problems when we start any project.In a past project that has a new knowledge domain, I made the mistake of exploring all related topics. Having many problems in the end, I had to spend more time on prioritising them and the work required more billable hours. I definitely learnt about the domain but something wasn’t right when client had to pay for all those hours. I should have had understood which specific problems contribute to the problems and final solution. The mistake can be avoided if I set out to collect data with clear objectives.&lt;/p&gt;
+
+&lt;p&gt;It is comfortable to think about problems without the constrain of objectives. However, in working backward we make having solution as first priority by planning our objectives. With objectives, we are better at choosing the method to collect and analyse data. The dilemma of trying to understand the root cause and collecting a wide range of data in analysis phase will be discussed further in the next article.&lt;/p&gt;
+
+&lt;h3 id=&quot;use-design-criteria&quot;&gt;Use Design Criteria&lt;/h3&gt;
+
+&lt;p&gt;Design criteria often act as the intermediaries between objective and solution. You don’t want to have tunnel vision when focusing on solution early, but also want something more specific that help you come up with solutions digging deeper into a problem. You might want to ask more question to validate whether design criteria works for your customers. Think about what kind of solution (instead of what solution) might help solve the problem.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Use design criteria to stay broad enough, before focusing on specific solutions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;focus-on-the-unchanged&quot;&gt;Focus on the Unchanged&lt;/h3&gt;
+
+&lt;p&gt;Many companies have their missions remain unchanged for a long time, even decades but their product portfolio change. The reason is because their mission is tied to human behaviours. The solution change quickly but human behaviour change much slower.&lt;/p&gt;
+
+&lt;h3 id=&quot;good-objectives&quot;&gt;Good objectives&lt;/h3&gt;
+
+&lt;p&gt;As objectives are not solutions, they rather describe the goals and ambition you want to achieve without limiting the scope by indicating which technology we have to use. As these ambition can be vague, a good objective need to have three factors:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Direction: E.g.We want to expand our insurance business to New South Wales farming community.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Measurable Target: In 5 years, we want to own 70% market of farming insurance nationwide.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Design criteria: We want to focus on medium and large-size farming business firstly and build customer base through broker and financial advisors.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;case-study-amazon&quot;&gt;Case study: Amazon&lt;/h3&gt;
+
+&lt;p&gt;Working backwards is practiced in Amazon. New products by Amazon start with customer first. Werner Vogels mentioned this in his article &lt;a href=&quot;https://www.allthingsdistributed.com/2006/11/working_backwards.html&quot;&gt;Working Backwards&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Start by writing the Press Release&lt;/strong&gt;. Nail it. The press release describes in a simple way what the product does and why it exists — what are the features and benefits. It needs to be very clear and to the point. Writing a press release up front clarifies how the world will see the product — not just how we think about it internally.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Write a Frequently Asked Questions document&lt;/strong&gt;. Here’s where we add meat to the skeleton provided by the press release. It includes questions that came up when we wrote the press release. You would include questions that other folks asked when you shared the press release and you include questions that define what the product is good for. You put yourself in the shoes of someone using the product and consider all the questions you would have.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Define the customer experience&lt;/strong&gt;. Describe in precise detail the customer experience for the different things a customer might do with the product. For products with a user interface, we would build mock ups of each screen that the customer uses. For web services, we write use cases, including code snippets, which describe ways you can imagine people using the product. The goal here is to tell stories of how a customer is solving their problems using the product.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Write the User Manual&lt;/strong&gt;. The user manual is what a customer will use to really find out about what the product is and how they will use it. The user manual typically has three sections, concepts, how-to, and reference, which between them tell the customer everything they need to know to use the product. For products with more than one kind of user, we write more than one user manual.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;using-lean-startup&quot;&gt;Using Lean Startup&lt;/h3&gt;
+
+&lt;p&gt;Lean Startup by Eric Ries, a popular startup framework, has some similarities with Amazon principles. When we combine them together, we have following steps in defining objectives of product development:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create landing page containing information similar to Press Release, and describe the customer experience.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Validate the product further with customer research. Use the insights to figure out the customer experience of the product. Describe it to customer in the landing page. Dropbox did this in a video. You need to figure how the product can be valuable and usable.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Improve the landing page with FAQ and User manual after validating the product. The FAQ and USer Manual contain product requirement for engineering.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;think-slower-to-go-faster&quot;&gt;Think slower to go faster&lt;/h3&gt;
+
+&lt;p&gt;It feels comfortable to go with objectives passed by stakeholder without reiterating them to fulfil important details. The next time you start any project, make sure to spend time on setting clear objectives before doing doing research or development of solution. My preferred ways is to practice asking following questions and redefine objectives until they check all Yes boxes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;What does success look like?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Can I describe the success to people outside the project team (to make sure it is understandable)?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Is the objectives quantifiable in any measurement?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What are the hypotheses in your objectives that I can validate?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Are the objectives focused on something unchanged in future or might it be irrelevant soon?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Are my customers part of the success? What do they look like when using the solution?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the following article, I will talk about Analytical Framework in helping you measure process logically when working backwards.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jul 2018 00:06:00 +0000</pubDate>
+        <link>https://ryanntt.com/blog/start-with-objectives-not-problems-backward-thinking-part2</link>
+        <guid isPermaLink="true">https://ryanntt.com/blog/start-with-objectives-not-problems-backward-thinking-part2</guid>
+      </item>
+    
+      <item>
+        <title>Backward Thinking in Problem Solving - Part 1 Introduction</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Sometimes, if you do not begin at the end, you end at the beginning (Ginat, 2005).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Backward thinking in problem solving can be observed frequently in my life and design career, either happening to me or some one else. I have learnt many lessons about it and want to write about it here.&lt;/p&gt;
+
+&lt;p&gt;Following are the definitions of forward and backward thinking (terms thinking and working can be used interchangably).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Working forwards is the way of approaching a problem by starting from initial state and advancing forwards, towards the goal state (Polya, 1957 in Ginat, 2005).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Working backwards is the way of advancing backwards from the goal state (Polya, 1957 in Ginat, 2005).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;https://res.cloudinary.com/ryanntt/image/upload/s--mUY6P4mw--/v1530803654/blog/backward-thinking/forward_backward_thinking.jpg&quot; /&gt;
+    &lt;figcaption&gt;The goal state can be defined by you, and presence sometimes is not fully known as you thought.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It is easy to see why people often choose the forward option: from Initial state to Goal state. However, the reverse might be more logical and often optimal. People tend to think they understand what they have at the presence and constrain themselves to that understanding when planning for the future. Without defining the desired goal, it’s easy to limit yourself and miss out ambitious targets.&lt;/p&gt;
+
+&lt;p&gt;When designing a new product, people start from it being a sucess and work backward what they need to achieve to reach that goal. However, other people prefer to look at the past performance and current state of product and work forward what success they might reach. We will compare these two ways in the subsequent articles of this series.
+You have used backward thinking before&lt;/p&gt;
+
+&lt;p&gt;Though fancy as it sounds, backward thinking is what you actually have used since you were a kid. Remember the last time you lied to someone? For example, when you didn’t come on time. You started with not coming on time, went backwards to seek excuse and settled with reason that there was a traffic jam. Your friend might have asked why she shared the same route and didn’t see any traffic jam. You started with the fact that she didn’t see the jam and thought backward to seek another explanation.&lt;/p&gt;
+
+&lt;p&gt;Math is one of the first domains where we learn how to work backward. Let’s consider two following math problems:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem 1: A car park has a maximum capacity of 75 cars. What is 2/3 of its capacity?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem 2: A car park currently has 50 cars parking. We know that this is only 2/3 of its maximm capacity. What is its maximum capacity then?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the first problem, 75 cars is the known initial state, the relation to goal state is operation with 2/3. The solution is times 75 and 2/3, which is working forward.&lt;/p&gt;
+
+&lt;p&gt;In the 2nd probem, 50 cars is the known goal state, the relation to maxium capacity (unknown initial state) is 2/3. The solution is to know 1/3 of maximum capacity first and then derive the whole, which is working backward.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-i-care-about-backward-thinking&quot;&gt;Why I care about Backward Thinking?&lt;/h3&gt;
+
+&lt;p&gt;As more and more people, including me, say we are problem solvers, I reflected and recognized gaps in my knowledge and skills required to solve problems, especially in UX design. I decided to learn problem solving from foundation. I started with which concepts and framework people use to solve problems in case studies. The next step is to undersand those concepts and frameworks. Problems requiring backward thinking like problem 2 mentioned earlier represent many case studies I have read.&lt;/p&gt;
+
+&lt;h3 id=&quot;exercise&quot;&gt;Exercise&lt;/h3&gt;
+
+&lt;p&gt;After knowing the concepts of backward and forward thinking, I reflected on what happened in my past projects and notice that I used both methods under different circumstances.&lt;/p&gt;
+
+&lt;p&gt;In the next article, I’m going to talk about starting project with objectives, instead of problems. Meanwhile, you can start looking at how you solve daily problems from perspective of working forward and backward. Prepare to be surprised!&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;Ginat, David. &lt;a href=&quot;https://www.thefreelibrary.com/The%20suitable%20way%20is%20backwards,%20but%20they%20work%20forward.-a0128170454&quot;&gt;“The suitable way is backwards, but they work forward.”&lt;/a&gt; Journal of Computers in Mathematics and Science Teaching, vol. 24, no. 1, 2005.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 Jul 2018 00:06:00 +0000</pubDate>
+        <link>https://ryanntt.com/blog/backward-thinking-in-problem-solving-part1</link>
+        <guid isPermaLink="true">https://ryanntt.com/blog/backward-thinking-in-problem-solving-part1</guid>
+      </item>
+    
+      <item>
+        <title>Just do it</title>
+        <description>&lt;p&gt;One day, an email sent to my colleagues inviting us to have a presentation in their conference&lt;/p&gt;
+
+&lt;p&gt;At first, I saw that the conference was quite small and low-key so I didn’t want to join.&lt;/p&gt;
+
+&lt;p&gt;My product manager received the same email and asked if I wanted to talk in the conference. He said I should start giving some talk and share design knowledge.&lt;/p&gt;
+
+&lt;p&gt;I thought part of me never feel ready for any thing. That was my imposter syndrome. I never want to do anything unless I’m ready. And it’s rare for me to reach that ready state. I was comfortable with that. But suggestion by my product manager made a lot of sense, so I decided to give it a try.&lt;/p&gt;
+
+&lt;p&gt;After talking with a few people, I felt like to talk about some problems we have been trying to solve. I felt proud of the work and the team I am working in. A few rounds of iteration and I decided to talk about Designing for Global and Local Markets.&lt;/p&gt;
+
+&lt;p&gt;First challenge was the preparation for the topic. I collected ideas from my product manage, who has worked for several years. I received a few feedback from other product managers/designers in a meet-up about their paint points in designing products for global/local markets. The next step was to align brainstormed ideas and thought in certain structure. I found &lt;a href=&quot;http://www.amazon.com/Global-UX-Design-Research-Connected/dp/012378591X/ref=sr_1_1?ie=UTF8&amp;amp;qid=1460412082&amp;amp;sr=8-1&quot;&gt;Global UX: Design and Research in a Connected World (by Whitney Quesenbery and Daniel Szuc)&lt;/a&gt; a valuable references to understand and organized my presentation. The book helped me stand back from my own opinion and see the problem from perspective of many other experienced designer and product manager mentioned in the book. I even realized certain practices in my design process can be improved and that I should focus on important points.&lt;/p&gt;
+
+&lt;p&gt;The second challenge was in the conference day. It was lucky for me that I talked with audience and other speakers during lunch and before my presentation so I can relate my presentation to their background and expectation better. I was nervous at the first few minutes but then it got better when I was more into it. I came to learn that other companies are having some similar problems and that my next presentation will be better.&lt;/p&gt;
+
+&lt;p&gt;I used to doubt the mentality “Just do it” as I thought it is ignorant to do something before thinking about it. After the presentation, “Just do it” to me is more like a mentality you have when you decide to do something for the first time because you know the best result will come only after the first try.&lt;/p&gt;
+
+&lt;p&gt;In case you want to see my presentation, please find it &lt;a href=&quot;http://www.slideshare.net/ryanntt/designing-for-global-and-local-markets&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Apr 2016 00:06:00 +0000</pubDate>
+        <link>https://ryanntt.com/blog/just-do-it</link>
+        <guid isPermaLink="true">https://ryanntt.com/blog/just-do-it</guid>
+      </item>
+    
+      <item>
+        <title>First meetup in 2016</title>
+        <description>&lt;p&gt;&lt;em&gt;In 2016, one of my goals is to participate in lesser professional events but more actively in each one. At UXSG meet-up #21, my first meet-up in 2016, I posted the topic Designing for Global and Local Markets. As a designer working in product that spans over different markets, my initial thoughts were to understand what kind of challenges other product designers were facing.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In the discussion room, we had people from different companies working on both consumer-facing and enterprise products.&lt;/p&gt;
+
+&lt;h2 id=&quot;challenges-in-our-work&quot;&gt;Challenges in our work&lt;/h2&gt;
+
+&lt;h3 id=&quot;communication-with-local-resources&quot;&gt;Communication with Local Resources&lt;/h3&gt;
+
+&lt;p&gt;Country Managers often give feature requests that are unique to the market. However, designers have struggled to validate features based only on the country manager’s feedback.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Takeaway point&lt;/span&gt;: Country managers don’t represent the country’s demographics, so it is important to understand if the feedback comes from them or the users.&lt;/p&gt;
+
+&lt;h3 id=&quot;language--local-culture&quot;&gt;Language &amp;amp; Local Culture&lt;/h3&gt;
+
+&lt;p&gt;Typographic problems include character spacing, line height,left-to-right, right-to-left rules. People translate copy without knowing the usage of its words. It is advisable that the translator sees the copy in context so that the translation communicates the right intent instead of a literal word-by-word translation. From my experience, a native copy writer is most ideal but someone in the office with good writing skills can be of great help to revise the copy and its translation.&lt;/p&gt;
+
+&lt;p&gt;On an e-commerce site, the goal is to help people gain confidence in the information displayed and make a decision to purchase. Information such as prices shown in large font size with clear contrast color are understood by user easily, and therefore creates a strong sense of transparency and trust in the business. However, in some currencies (e.g. Indonesia Rupiah and Vietnam Dong), price can go up to more than 6 digits from a 3-digit price in Singapore Dollar. How can we display price in a meaningful way and maintain typographic legibility?&lt;/p&gt;
+
+&lt;p&gt;For further reading, check out &lt;a href=&quot;http://www.slideshare.net/cxpartners/chinese-web-design-patterns-how-and-why-theyre-different&quot;&gt;Chinese Website Design Patterns by Chui Chui Tan&lt;/a&gt; and &lt;a href=&quot;https://uxmag.com/articles/chinese-users-want-the-same-e-com-experiences-as-their-western-counterparts&quot;&gt;Chinese Users Want The Same E-Commerce Experiences as Their Western Counterparts&lt;/a&gt; that address designing for trust on e-commerce sites.&lt;/p&gt;
+
+&lt;h3 id=&quot;market-infrastructure&quot;&gt;Market Infrastructure&lt;/h3&gt;
+
+&lt;p&gt;Transportation and payment in a country dictate how an e-commerce site handles its payment and delivery service. Do people feel confident with online transactions or would they prefer to pay cash?We should not only consider available payment methods but also people’s trust in payment infrastructure.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ey.com/Publication/vwLUAssets/EY_-_Mobile_money_-_the_next_wave_of_growth_in_telecoms/$FILE/EY-mobile-money-the-next-wave.pdf&quot;&gt;McKinsey’s report on Asia-Pacific Payments Map (PDF)&lt;/a&gt; goes deeper into the growth of different payment methods, including mobile payments which will have a big impact on e-commerce.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-process-to-tackle-these-challenges&quot;&gt;Design process to tackle these challenges&lt;/h2&gt;
+
+&lt;h3 id=&quot;research-tools&quot;&gt;Research Tools&lt;/h3&gt;
+
+&lt;p&gt;There are many quantitative and qualitative research methodologies that can be conduced remotely or face-to-face which fit different budgets:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Online (interceptive) survey:&lt;/strong&gt; Prompt users to give feedback when they are using product. e.g. &lt;a href=&quot;https://qualaroo.com/&quot;&gt;Qualaroo&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Online chat:&lt;/strong&gt; Interview users when they are using the product e.g. &lt;a href=&quot;https://www.intercom.io/&quot;&gt;Intercom&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Usability testing and interviews (remote or onsite):&lt;/strong&gt; Find the right usability testing and research tools on &lt;a href=&quot;http://remoteresear.ch/tools/&quot;&gt;Remote Research&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use MVP methodology (Google Venture sprint):&lt;/strong&gt; Design, implement, test, iterate.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;A/B testing:&lt;/strong&gt; Decide which design results in a better outcome but may not answer question why.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tracking:&lt;/strong&gt; Look into users’ behavior by using event tracking, heat map e.g. &lt;a href=&quot;https://analytics.google.com/&quot;&gt;Google Analytics&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Competitive research:&lt;/strong&gt; Look into how companies in the same industry and similar companies in different industries that tackle the same problems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Takeaway point&lt;/span&gt;: Validate your design hypothesis and effectiveness of design using quantitative and qualitative methods with an appropriate sample to scale to most important markets.&lt;/p&gt;
+
+&lt;h3 id=&quot;work-with-people-that-understand-local-markets&quot;&gt;Work with people that understand local markets&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Local office:&lt;/strong&gt; Build a design culture in the company so that everyone, not just designers, care about how people use the product. Communicate with country managers to build a research plan.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Build a design team in local office:&lt;/strong&gt; Ideal but requires an initial investment. Or you can just fly there and conduct face-to-face research.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;UX consultant:&lt;/strong&gt; This was an interesting topic as to when we should ask for help from UX consulting firms and what to expect from this collaboration. This could be a good way for in-house teams to learn from outside experts or a quick way to solve the problem with cost.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ask these &lt;a href=&quot;https://uxmag.com/articles/6-key-questions-to-guide-international-ux-research&quot;&gt;6 Key Questions to Guide International UX Research&lt;/a&gt; before your next international research project.&lt;/p&gt;
+
+&lt;h2 id=&quot;more-discussion&quot;&gt;More discussion&lt;/h2&gt;
+
+&lt;p&gt;It was a great opportunity for me to chat with product managers and designers from other companies. We shared our experiences in solving different challenges. I hope to follow up this topic with more specific domain in the next meet-up.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 08 Mar 2016 00:42:00 +0000</pubDate>
+        <link>https://ryanntt.com/blog/first-meetup-2016</link>
+        <guid isPermaLink="true">https://ryanntt.com/blog/first-meetup-2016</guid>
+      </item>
+    
+      <item>
+        <title>App Updates that are Fun to Read</title>
+        <description>&lt;p&gt;App update is a place that people hardly pay attention to. It is mostly filled with a long list of bug fixes and new features that are similar to the product backlog of product development sprint. &lt;em&gt;Maybe it is the product manager that writes the copy&lt;/em&gt;, which includes common key words such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This release includes following updates&lt;/li&gt;
+  &lt;li&gt;Bug fixes, performance improvements, enhancements, &lt;em&gt;minor improvements&lt;/em&gt; (Really? so why did you guys bother to release?), fixed&lt;/li&gt;
+  &lt;li&gt;New features, what’s new, new&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;its-not-about-being-interesting&quot;&gt;It’s not about being interesting&lt;/h3&gt;
+
+&lt;p&gt;The main problem with highly technical copies is that they are hardly read by user, which is unfortunate since users do need a reason to press the button Update. The feeling of owning something better when pressing the button is being ignored. Is it because it take less than 1 minutes to update the app so no user bother reading it?&lt;/p&gt;
+
+&lt;p&gt;Developers push updates with new features, which rely on user on-boarding to be introduced to users. People spent a big budget on on-boarding new user and user retention while skipping one of the most cost-effective place, the app update.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In (content) design, the aha moment can come at the time and place that no one else has ever thought of or no courage to venture in.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;the-blend-of-information-and-personality&quot;&gt;The blend of information and personality&lt;/h3&gt;
+
+&lt;p&gt;I love app updates that are playful and engaging. For example, when you are a StarWars fan boy, you can feel the awesomeness in this brilliant copy from &lt;strong&gt;Hipmunk&lt;/strong&gt;. Darth Vader was mentioned!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/ryanntt/image/upload/c_scale,w_756/v1457537438/20160209/hipmunk-update-1.png&quot; alt=&quot;Hipmunk Update&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hipmunk personality is always fun and witty. It makes me think H in Hipmunk stands for Hipster. Pay attention to their choice in copy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Casual&lt;/strong&gt;: s***, sexy, awesome, wicked, love, super, cool.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cultural references&lt;/strong&gt;: Mighty Ducks, PeeWee, Team USA, Anakin Sky Walker, Darth Vader, Discovery-y.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Good app update can represent the product’s personality&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/ryanntt/image/upload/v1457537436/20160209/hipmunk-update-2.png&quot; alt=&quot;Hipmunk update&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using a different approach, &lt;strong&gt;Medium&lt;/strong&gt; gave little exercise to your brain and introduced important changes at the end. They sure love Scramble.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/ryanntt/image/upload/c_scale,w_756/v1457537436/20160209/medium-update-1.png&quot; alt=&quot;Medium update&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Medium app updates have a consistent sense of humour with stories. The summary of new features and changes at the end is always helpful. To me, Medium has this cool vibe that welcome people to update the app with ease of mind.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/ryanntt/image/upload/c_scale,w_756/v1457537437/20160209/medium-update-2.png&quot; alt=&quot;Medium update&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And this was their gift for Star Wars fans as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/ryanntt/image/upload/v1457537436/20160209/medium-update-3.png&quot; alt=&quot;Medium update&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Someone was cooking and writing this update. I guess Medium may have different people writing app updates. &lt;em&gt;Otherwise, who is this cool person? Must be someone love cooking, telling witty joke and a Star Wars fan.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/ryanntt/image/upload/c_scale,w_756/v1457537439/20160209/medium-update-4.png&quot; alt=&quot;Medium update&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I love using &lt;strong&gt;Tumblr&lt;/strong&gt; app update. It has the best update with Friends stories. I can immediately see that the update was to support iPad Pro, fix bugs, and smooth animation. A nice blend of humour and important information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/ryanntt/image/upload/c_scale,w_756/v1457537439/20160209/tumblr-update-1.png&quot; alt=&quot;Tumblr update&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I hope to see frequent update of these apps so that I can read the copy. App updates can be fun, even when they are to inform the user of new features and changes. People do read it.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-moment-before-pressing-update&quot;&gt;A moment before pressing Update&lt;/h3&gt;
+
+&lt;p&gt;Maybe after reading this article, you will start checking the updates one by one instead of pressing “Update All”, which will remove all the excitements.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If you see any fun app updates, please let me know.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;update-on-13-feb-2016&quot;&gt;Update on 13 Feb 2016&lt;/h4&gt;
+
+&lt;p&gt;Many apps have engaging copy in the updates. Following apps (on iOS) are mentioned in the comments by readers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Citymapper&lt;/strong&gt;: its updates are clever in introducing new features in an understandable language. Thanks to &lt;a href=&quot;https://www.designernews.co/stories/63538-app-updates-that-are-fun-to-read&quot;&gt;Louis B on Designer News&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Trello&lt;/strong&gt;: long but very good copy, not for impatient readers. Love its watch release in update 2.9.1 — Apr 23,2015.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Slack&lt;/strong&gt;: usually very long list of bug fixes and features in updates but you can still see many witty remarks.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pocket Casts&lt;/strong&gt;: a podcast app mentioned by &lt;a href=&quot;https://medium.com/@jasonbereklewis&quot;&gt;Jason Berek-Lewis&lt;/a&gt;. Really like the update 4.6.3 (Aug 6, 2014).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 09 Feb 2016 00:42:00 +0000</pubDate>
+        <link>https://ryanntt.com/blog/app-updates-that-are-fun-to-read</link>
+        <guid isPermaLink="true">https://ryanntt.com/blog/app-updates-that-are-fun-to-read</guid>
+      </item>
+    
+      <item>
+        <title>My 2015 - The Year of New Adventures</title>
+        <description>&lt;p&gt;&lt;em&gt;Compared to 2014, this year 2015, I put up a better plan for the year and even had monthly goals. Normally, yearly reviewing is done on a Google doc and kept private. But this year, I want to put it on this blog so I am more accountable to myself.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;work&quot;&gt;Work##&lt;/h2&gt;
+
+&lt;p&gt;The biggest decision I made this year is to quit the first full-time job. I am not suitable for agency model, where the relationship with client needs a lot of rework to maintain the integrity of doing design and development across different projects and clients. I have moved to a product company where there is one client with one product. It has given me more focus with clear goal everyday going to work.&lt;/p&gt;
+
+&lt;p&gt;Leaving my first full-time job also meant a much-needed retrospective time. After graduation, I took the job to set my foot into industry and since then kept working without thinking through my career. I realised that I learnt a great deal of knowledge and skills from the people I worked with. I am happy that I made that choice almost 2 years ago.&lt;/p&gt;
+
+&lt;p&gt;My new job has brought a new perspective into my design work as I am designing help people to travel better. There are much things for me to learn about travel industry.&lt;/p&gt;
+
+&lt;h2 id=&quot;fear&quot;&gt;Fear##&lt;/h2&gt;
+
+&lt;p&gt;Fear has been the reason I didn’t do and did a lot of things. I discovered some of my fear in 2015:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Height, Depth, Confined space&lt;/li&gt;
+  &lt;li&gt;Fear of not having enough time&lt;/li&gt;
+  &lt;li&gt;Fear of being left behind in society&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is the fear and the fear to start fighting it back. My solution is to get used to the fear and understand where it comes from. I tried to play sports with height such as rock climbing, mountain climbing. The fear in confined space is a new one that I discovered during my trip to Cu Chi tunnel (near Ho Chi Minh, Vietnam) and twice during flights. The fear is still there but I get better at handling the it.&lt;/p&gt;
+
+&lt;p&gt;The fear of not having enough time and being left behind in society is due to the depression I had when applying for new job and felt frustrated when comparing myself to my peers. It was extremely unhealthy. I kept going and found a fulfilling job. Running also taught me how to tackle these fears. I am going to write a blog post about this.&lt;/p&gt;
+
+&lt;h2 id=&quot;health&quot;&gt;Health##&lt;/h2&gt;
+
+&lt;p&gt;I moved house so the my 2014 gym schedule is interrupted. I decided to join a gym near my new office. Regular excercising has helped me release stress after office hours.&lt;/p&gt;
+
+&lt;p&gt;I ran 2 half marathons this year (Standard Chartered 21km and Sundown 21km) and improved my stamina a lot. This is what I am proud of the most about my health.&lt;/p&gt;
+
+&lt;p&gt;I experimented with standing desk this year, at both office and home. I felt better working in office and have more energy. It’s a good way to lose weight and stay focused after lunch time.&lt;/p&gt;
+
+&lt;p&gt;Things planned but not done properly yet this year are meditation and yoga. I could only practice those for a few days then gave up. These are going to be my goals in 2016.&lt;/p&gt;
+
+&lt;h2 id=&quot;travel&quot;&gt;Travel##&lt;/h2&gt;
+
+&lt;p&gt;I travelled to a few cities this year:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hanoi, Vietnam&lt;/li&gt;
+  &lt;li&gt;Hong Kong&lt;/li&gt;
+  &lt;li&gt;Ho Chi Minh, VIetnam&lt;/li&gt;
+  &lt;li&gt;Surabaya, Indonesia&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I felt like short trips take more energy from me. I enjoy longer trip with more time to rest and refresh perspective to enjoy small things. The trip to Hong Kong really opened my eyes to a city with a lot of public spaces designed for people.&lt;/p&gt;
+
+&lt;p&gt;After Mt.Fuji in 2012, I haven’t climbed any mountain until 2015. Summiting Mt.Semeru is a memorable achivement I had with my new colleagues in Wego.&lt;/p&gt;
+
+&lt;p&gt;Most of my time in Indonesia was for climbing. I started to understand the people in Indonesia and fall in love with Indonesian food. I now eat Indonesian food at least once every week.&lt;/p&gt;
+
+&lt;p&gt;During all my trips, the most memorable times are with my friends, new and old ones. I am lucky to have all these friends around me sharing both enjoyable and challenging times.&lt;/p&gt;
+
+&lt;h2 id=&quot;design&quot;&gt;Design##&lt;/h2&gt;
+
+&lt;p&gt;I revamped my portfolio website and transfered many cluttered projects to the website you are reading. I wrote more this year and felt more confident with my writing. More articles is my goal in 2015. Next year is a higher quality of writing.&lt;/p&gt;
+
+&lt;p&gt;I joined UX Hong Kong conference this year and really loved it. It is only my 2nd design conference after UX Singapore in Oct, 2014.&lt;/p&gt;
+
+&lt;p&gt;In June, my friends and I in a game development group called Hiterus published &lt;a href=&quot;http://ryanntt.com/projects/scindo-mobile-game-design/&quot;&gt;our first Android game&lt;/a&gt;. It’s a big achievement for me. I learnt a lot about UI game design and app publishing.&lt;/p&gt;
+
+&lt;p&gt;2015 is a year that I learnt different set of new design skills. Knowing my strength and weakness better is what I have been doing.&lt;/p&gt;
+
+&lt;h2 id=&quot;photography&quot;&gt;Photography##&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://chillingkat.com&quot;&gt;My photography blog&lt;/a&gt; has been continued this year. I bought an iPhone 6 Plus and took more photos with it more than my film camera. Film photography with its complication slowed down me. I love the fact that it separates the desire to see photos published on social media, which delay the gratification and improve focus when taking photos. However, the need to capture the moment at right times make mobile photography a better fit.&lt;/p&gt;
+
+&lt;h2 id=&quot;reading&quot;&gt;Reading##&lt;/h2&gt;
+
+&lt;p&gt;My favourite non-fiction book in 2015 is Design is a Job by Mike Monteiro. It really changed how I see my job and approach my career planning as a grand design project.&lt;/p&gt;
+
+&lt;p&gt;I was given the book The Little Prince with its simple life lessons. My favorite part is about friendship:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I am looking for friends. What does that mean – tame?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It is an act too often neglected,” said the fox. “It means to establish ties.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“To establish ties?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Just that,” said the fox. “To me, you are still nothing more than a little boy who is just like a hundred thousand other little boys. And I have no need of you. And you, on your part, have no need of me. To you I am nothing more than a fox like a hundred thousand other foxes. But if you tame me, then we shall need each other. To me, you will be unique in all the world. To you, I shall be unique in all the world….” ― Antoine de Saint-Exupéry, The Little Prince&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Murakami is my most favourite author and I just finished What I talk about when I talk about running. It is a great book about life as well.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Sometimes taking time is actually a shortcut.” ― Haruki Murakami, What I Talk About When I Talk About Running&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I tried a few other non-fiction books this year but haven’t finished such as Awake The Giant within by Tony Robbins and Meditations by Marcus Aurelius.&lt;/p&gt;
+
+&lt;h2 id=&quot;volunteering&quot;&gt;Volunteering##&lt;/h2&gt;
+
+&lt;p&gt;A recent activity that I took up is volunteering for Garden by the Bay. Though it has been only 3 months but I think this is one of the most meaningful acivities I did in 2015.&lt;/p&gt;
+
+&lt;h2 id=&quot;languages&quot;&gt;Languages##&lt;/h2&gt;
+
+&lt;p&gt;It is not a good year for me when it comes to learning new languages. I set a goal of improving my Japanese but then didn’t learn more of it in 2015.&lt;/p&gt;
+
+&lt;p&gt;This year, I learnt Chinese for 3 months but stopped after finishing the beginner class due to busy schedule at new job. One thing I got out of the class is a love for Chinese culture.&lt;/p&gt;
+
+&lt;h2 id=&quot;family&quot;&gt;Family##&lt;/h2&gt;
+
+&lt;p&gt;The Christmas vacation with parents and sister is my best highlight this year.&lt;/p&gt;
+
+&lt;p&gt;To end this post, I want to borrow my favourite quote from The Godfather.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A man who doesn’t spend time with his family can never be a real man.” ― Mario Puzo, The Godfather&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 31 Dec 2015 23:55:00 +0000</pubDate>
+        <link>https://ryanntt.com/blog/my-2015-year-of-new-adventures</link>
+        <guid isPermaLink="true">https://ryanntt.com/blog/my-2015-year-of-new-adventures</guid>
+      </item>
+    
+      <item>
+        <title>Tools and The Illusion of Better Design</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://ryanntt.com/images/tools-and-illusion/drawing-tool.jpg&quot; alt=&quot;Drawing Tool&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;There are many design tools while you may have little time to master them all. How do you choose the “right” one?&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-problem-with-tools&quot;&gt;The Problem with Tools##&lt;/h2&gt;
+
+&lt;p&gt;In photography, there is a syndrome called &lt;a href=&quot;https://en.wikipedia.org/wiki/User:GreyCat/Gear_Acquisition_Syndrome&quot;&gt;Gear Acquisition Syndrome, aka GAS&lt;/a&gt;. GAS is a term used to describe an urge to acquire and accumulate lots of gear (Wikipedia). When people with GAS see great art work, they focus mainly on the contribution of tool. They forget who choose the tool and how that person made the choice. I first learnt about GAS in &lt;a href=&quot;http://erickimphotography.com/blog/2014/04/06/fk-gas-gear-acquisition-syndrome/&quot;&gt;this blog post&lt;/a&gt;, written by Eric Kim, a street photographer. I used to be one of those people. I bought and tried out different camera and lens. I never felt satisfied with my cameras.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The truth is that I don’t create better works with better tools.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The more tools I have, the more I think about which tool to use in which situation. I used to feel curious about the tools used to create nice design. But having the tool, I didn’t know how to start creating. The truth is that I don’t create better works with better tools. What I thought previously as better is simply more fancy-looking design. &lt;em&gt;But the core of design is decided by me, not the tools I choose&lt;/em&gt;. What I should have done is to choose one tool and think about how to deliver the best result regarding requirement of situation and limitation of tool, which are always existing regardless of tool I choose.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-path-through-overwhelming-choices&quot;&gt;The Path through (Overwhelming) Choices##&lt;/h2&gt;
+&lt;p&gt;When I was in university, Photoshop(CS4) was my choice for anything related to design. I remember that it got things done but is slow in iterating, especially with interface design. I tried out other tools as well. Illustrator was fast but lack of certain functionalities to fit to my workflow. Firework was right for the job until &lt;a href=&quot;http://blogs.adobe.com/fireworks/2013/05/the-future-of-adobe-fireworks.html&quot;&gt;Adobe stopped supporting it&lt;/a&gt;, which led to its sluggishness on Mac OSX. Then I discovered &lt;a href=&quot;http://www.sketchapp.com/&quot;&gt;Sketch&lt;/a&gt; and immediately saw it as the right fit to my workflow.&lt;/p&gt;
+
+&lt;p&gt;The same thing is happening with prototyping tools. &lt;a href=&quot;http://www.invisionapp.com/&quot;&gt;Invision&lt;/a&gt;, &lt;a href=&quot;http://marvelapp.com/&quot;&gt;Marvel&lt;/a&gt; are good enough for me. But &lt;a href=&quot;http://framerjs.com/&quot;&gt;Framer&lt;/a&gt;, &lt;a href=&quot;https://www.flinto.com/&quot;&gt;Flinto&lt;/a&gt;, &lt;a href=&quot;http://principleformac.com/&quot;&gt;Principle&lt;/a&gt; open more possibilities to achieve a higher level of deliverables. This makes me feel that what was enough is not enough any more. People on all social medias are asking each other what tools they should be using. People feel overwhelmed with choices.&lt;/p&gt;
+
+&lt;p&gt;I don’t want to have an illusion that if I can change tool, I can design better. The best design tool is already installed in my machine. I just need to master it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s not about choosing the right tools but using the available ones in right way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I felt excited learning new tool knowing that it will improve my workflow. But sometimes, the new tool comes with a learning time to master it and the deadline is coming. I was reluctant to learn and retreat back to what I am more comfortable with. Sometimes, it’s not about choosing the right tools but using the available ones in right way. I guess that’s why a lot of designers start creating design with pen and paper.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Am I lazy?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, but being lazy forces me to be selective with what I spent time on. &lt;em&gt;Learning a new tool means less time on mastering my current tool. Is it a fair trade-off?&lt;/em&gt; Only when I can justify this point, I will start to master that new tool.&lt;/p&gt;
+
+&lt;h2 id=&quot;which-design-tool-should-i-choose&quot;&gt;Which design tool should I choose?##&lt;/h2&gt;
+
+&lt;p&gt;It boils down to answering 3 questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What is your workflow?&lt;/li&gt;
+  &lt;li&gt;Can you get support from community?&lt;/li&gt;
+  &lt;li&gt;Do product makers listen to your feedback?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;stay-sane-with-a-workflow&quot;&gt;Stay sane with a workflow&lt;/h3&gt;
+&lt;p&gt;Workflow is not about a particular tool but how different tool can contribute to your productivity. You should try out different tools and find the right combination and improve the workflow. If you want to use a tool, you should think about how it fit into your workflow and your team’s workflow also. Since I started using Sketch, I find it suitable for my workflow due to &lt;a href=&quot;extensive collection of Sketch’s plugins&quot;&gt;extensive collection of Sketch’s plugins&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;community-is-the-best-support&quot;&gt;Community is the best support&lt;/h3&gt;
+&lt;p&gt;Community is a source of help that is faster than the product’s customer support. A strong community provide advice and tips on how to maximise the usage of the product. Everyone is willing to help each others.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-product-makers-listen-to-feedback-from-userscommunity&quot;&gt;The product makers listen to feedback from users/community&lt;/h3&gt;
+&lt;p&gt;A good customer support means a strong relationship between users and people creating products. Framer has &lt;a href=&quot;https://www.facebook.com/groups/framerjs/&quot;&gt;an active Facebook group&lt;/a&gt; where everyone including Framer creator talk with each other and help improve the product. A lot of products use Twitter as a channel to communicate with users, which I find very effective and engaging. &lt;a href=&quot;https://twitter.com/marvelapp&quot;&gt;Marvel’s Twitter channel&lt;/a&gt; is helpful in updating news about design trends, feature updates, as well as sharing tips for better prototyping. Invision has &lt;a href=&quot;http://blog.invisionapp.com/&quot;&gt;a fantastic blog&lt;/a&gt; with a weekly email that is now my favourite read.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stop hopping and start creating. Now is the right time.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After reading this article, you can start creating the design you are holding back waiting for the “right” tools. You already got the right ones installed in your machine. &lt;em&gt;Now is the right time.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This blog post was &lt;a href=&quot;https://medium.com/@ryanntt/tools-and-the-illusion-of-better-design-3761bf0b4836&quot;&gt;first written on Medium&lt;/a&gt;. It is archived here due to my having a lost website on GeoCities. Medium is great and so is GeoCities. I should have archived my GeoCities website.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Nov 2015 10:37:00 +0000</pubDate>
+        <link>https://ryanntt.com/blog/tools-and-the-illusion-of-better-design</link>
+        <guid isPermaLink="true">https://ryanntt.com/blog/tools-and-the-illusion-of-better-design</guid>
+      </item>
+    
+      <item>
+        <title>Why I stop designing alone</title>
+        <description>&lt;p&gt;I’m an introvert. At least, that’s what I have believed since I understand the terms and read &lt;a href=&quot;http://www.quietrev.com/&quot;&gt;The Power of Introverts by Susan Cain&lt;/a&gt;. I enjoy activities that require only 1 person. I like having authority to decide and move things fast. That’s pretty much the reason why I loved being a designer 2 years ago. I used to spend long time on making things perfect in my own corner for 2 days, then presented it to my boss. The result seemed to resonate with lucky draw. After learning Lean UX and how feedbacks help better design, I have been more open to feedbacks and surprised at how vital it is to product design.&lt;/p&gt;
+
+&lt;p&gt;One day, I was working on a project at wireframing stage. I keep going back and forth between user flow and the wireframe to assess the interaction flow in the new feature we were designing. I had been working on it for the past hour but couldn’t finished. I looked at messy sketching work and decided to ask for feedback from my Product Manager. I show him the user flow then the wireframe to help him visualise it. Instead of focusing on the incompleteness of the wireframe, he gave some ideas of how the user flow can be better or how it can be translated better to wireframe. After the discussion, almost all blocking points in my project had been cleared. I have learnt a few lessons from this event:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Present design with context and process behind it. I presented the user flow and how it look in wireframe. This help my Product Manager understand the wireframe better. Our conversation is focused on phrases like “When user does this”, “User see”, “User think”. The focus is on those people we want to help, not our own egos. The user flow create a context that orient the feedback toward user-based approach. Presenting the design to some one next to you is the first step in designing a product to as mass audience.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Leave your ego at the door. I had been concerned with my messy sketching and incomplete wireframe sometimes. I felt reluctant to show people. I thought it is my perfectionist’s habit. But the reason is my fear of failure. In a good design process, designer might not be the person with best idea, but the person can develop the best idea from feedback and implement it. This is a far more advanced skill than visual skills. If you listen to people, you will learn a lot from you since they have different perspectives. If you keep staring at the design with the same perspective, there is no improvement.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ask more question “Why”. This is often overlooked. Among questions types, “Why” tends to be a tough one to be answered. “Why do I have to do this?”. When designing features, asking why we need to have this features first, and then “Whom”, “What” and “How” will come easily into the picture and be answered momentarily.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You are not alone (even in one-man team). You are designing with developers, users, product managers. I tend to see many great ideas coming from people not in design team. Everyone cares about design. I believe that’s a good thing to have in any product company.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are more aspects of designing with feedbacks and how understanding lean UX can help designers. I will cover this in other posts.&lt;/p&gt;
+
+&lt;p&gt;I have been working for new job for 3 months. It has been quite a ride. I learn new skills and knowledge everyday and hope to share them more often in this blog. Thanks for passing by today :)&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 13 Jul 2015 01:26:00 +0000</pubDate>
+        <link>https://ryanntt.com/blog/why-I-stop-designing-alone</link>
+        <guid isPermaLink="true">https://ryanntt.com/blog/why-I-stop-designing-alone</guid>
+      </item>
+    
+      <item>
+        <title>Design Clients then Their Products</title>
+        <description>&lt;p&gt;&lt;em&gt;This is part of a series about client design. I am writing about how to improve design process with client. There is no ending. The numbering is to help me keep track of post. Feel free to suggest any topic in this domain to me.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;When started writing this post, I was in a transitional period moving from digital agency to product company. I spent 9 to 10 hours per day for my designer job including commuting, emailing, messaging. I have seen many projects in which working with client need to be redesigned before the product.&lt;/p&gt;
+
+&lt;h2 id=&quot;subjectivity-in-design&quot;&gt;Subjectivity in Design&lt;/h2&gt;
+
+&lt;h3 id=&quot;i-like-it&quot;&gt;“I like it!”&lt;/h3&gt;
+
+&lt;p&gt;I like keep designing but I hate keep making meaningless changes. To me, making requested changes is to please client, not to design. A self-starter designer never ask question “Do you like it?” as the question is the begining of many unconstructive feedbacks, followed by rounds of iteration for their request. If you are looking for a I-like-it reply, you are not a designer. You are a begger for money to cover your design cost. Bad design start with wrong types of question.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-improve&quot;&gt;How to improve&lt;/h3&gt;
+
+&lt;p&gt;I have seen projects having a fixed number of iteration, which means you have a fixed number of times to have a better design “hopefully”. You don’t want to limit the number iteration in lean UX. That’s counter-productive. I love it when clients give me feedback. It means they care about the design and want to make it better. They just don’t know how. Providing a feedback guideline is something you should work on. Instead of asking about their taste, asking whether certain design element can help achieve their business objective. Be elaborate and guide them. Treat them like children wanting to become adult so badly that don’t know how to behave. Ask them question why a lot. Make them think. You are paid also to teach them about design, and please do a good job about it because that will help other designers as well. This should be considered as the best thing that a designer can contribute to the community: teach client how to treat design and respect designer well. In this domain, I am inspired by book Design Is A Job by Mike Monteiro. I wrote this after reading the book.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-deadline-can-kill-design&quot;&gt;How Deadline Can Kill Design&lt;/h2&gt;
+
+&lt;h3 id=&quot;can-you-get-it-done-by-tomorrow&quot;&gt;“Can you get it done by tomorrow?”&lt;/h3&gt;
+
+&lt;p&gt;Together with giving requests, client also give deadline to designer as well. So does some Project Manager. Deadline of design means your design is done and developer start building it. How to know design is “done”? Your clients like it? Yes, that’s what I thought when starting out as designer. When I took the first job as designer, design was about how to please client. When we have a fixed date to conclude design, we understood that we need to create a design that client like and approved it. Usability testing was not thought of at the time. No budget and no time. Sometimes, we wonder why design don’t work. It is all about deadline and its side effect, design for client.&lt;/p&gt;
+
+&lt;p&gt;When I worked in an agency, design and development are different phases of a project. My colleagues and I tried to create a design process that includes necessary steps, modern tools in the hope to have better design. When the client approved mockup and prototype, design is considered as done and people moved all to developing the design. In a traditional agency model and waterfall, once design is done, they think it is good enough and move on. But there are many things during design is built. Design need to be tested, measure so that we know how effective it can be. But the client approved the design, why do we still need to test it?&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-improve-1&quot;&gt;How to improve&lt;/h3&gt;
+
+&lt;p&gt;There is no best design, but better designs. We hope to achieve a good design but we can always design something better given time for testing, iteration. The end of design depends on how we define the objective of decide, how we know it performs well in real life and how client understand this. In lean UX, the continuous improvement is the key factor to determine why and how design help improve the business of client.&lt;/p&gt;
+
+&lt;p&gt;Subjectivity and deadline are the first 2 reasons why I think client design is important in design process. They require designers to have communication skills and empathy with clients. So if you want to design any product for someone, firstly you will want to teach the person how to be a client because he /she may, for the first time, become a client. And it’s not easy.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 03 Jul 2015 01:00:00 +0000</pubDate>
+        <link>https://ryanntt.com/blog/design-clients-then-their-products</link>
+        <guid isPermaLink="true">https://ryanntt.com/blog/design-clients-then-their-products</guid>
+      </item>
+    
+  </channel>
+</rss>

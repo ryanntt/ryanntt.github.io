@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<!-- #if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->
+<html lang="en" class="fonts-loaded ">
+<!-- #else -->
+<html lang="en" class="">
+<!-- #endif -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Making travel marketplace trustworthy &#8211; Ryan Nguyen</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="description" content="&lt;p&gt;Wego is the largest online travel marketplace in the Middle East and North Africa. In 2016, the search experience was redesigned to acommodate the changing demographics of Wego users having various usage.&lt;/p&gt; &lt;p&gt;We were tasked to help travellers find their travel packages quickly, and at the same time bring the right travel products provided by our business partners to the right customers. The focused metric was the conversion rate of the search funnel.&lt;/p&gt;">
+    <meta name="author" content="Ryan Nguyen - UX Designer based in Sydney">
+    <meta name="keywords" content="projects">
+    <link rel="canonical" href="https://ryanntt.com/projects/wego">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Ryan Nguyen" href="/feed.xml" />
+
+    <style type="text/css">
+      
+      /*!
+* Pixyll - A simple, beautiful Jekyll theme that's mobile first.
+* @author John Otander <johnotander@gmail.com> (http://johnotander.com/)
+* @link https://github.com/johnotander/pixyll
+* @license MIT
+*//*!
+
+  BASSCSS
+
+  Next-level CSS toolkit - basscss.com
+
+  Made with love by Jxnblk - ©2014 Brent Jackson
+  MIT License http://opensource.org/licenses/MIT
+
+*/button,.button{font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif;font-size:inherit;font-weight:normal;text-decoration:none;cursor:pointer;display:inline-block;box-sizing:border-box;line-height:1.125rem;padding:.5rem 1rem;margin:0;height:auto;border:1px solid transparent;vertical-align:middle;-webkit-appearance:none}::-moz-focus-inner{border:0;padding:0}.button:hover{text-decoration:none}input,select,textarea,fieldset{font-size:1rem;margin-top:0;margin-bottom:.5rem}input[type=text],input[type=datetime],input[type=datetime-local],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=time],input[type=url],input[type=week]{box-sizing:border-box;height:2.25rem;padding:.5rem .5rem;vertical-align:middle;-webkit-appearance:none}select{box-sizing:border-box;line-height:1.75;padding:.5rem .5rem}select:not([multiple]){height:2.25rem;vertical-align:middle}textarea{box-sizing:border-box;line-height:1.75;padding:.5rem .5rem}.fieldset-reset{padding:0;margin-left:0;margin-right:0;border:0}.fieldset-reset legend{padding:0}body,button{margin:0}button,input,select,textarea{font-family:inherit;font-size:100%}img{max-width:100%}figure{margin:0;padding:0}svg{max-height:100%}body{font-family:system,-apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",sans-serif;line-height:1.65;font-size:100%}.fonts-loaded body{font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif}h1,h2,h3,h4,h5,h6{margin:0;padding:0;-webkit-margin-before:0;-webkit-margin-after:0}h1,h2,h3,h4,h5,h6{font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif;font-weight:500;line-height:1.4;margin-top:1em;margin-bottom:.5em}p,dl,ol,ul{font-size:1rem;margin-top:0;margin-bottom:1rem}ol,ul{padding-left:2rem}pre,code,samp{font-family:"Source Code Pro",Consolas,monospace;font-size:inherit}pre{margin-top:0;margin-bottom:1rem;overflow-x:scroll}hr{margin-top:2rem;margin-bottom:2rem}blockquote{margin-top:1rem;margin-bottom:1rem;margin-left:0;padding-left:.5rem;padding-right:.5rem}blockquote,blockquote p{font-size:1.25rem}h1,.h1{font-size:2rem}h2,.h2{font-size:1.5rem}h3,.h3{font-size:1.25rem}h4,.h4{font-size:1rem}h5,.h5{font-size:.875rem}h6,.h6{font-size:.75rem}.list-reset{list-style:none;padding-left:0}.button-blue{color:white;background-color:#0076df;border-radius:3px;transition-duration:.1s;transition-timing-function:ease-out;transition-property:box-shadow, background-color}.button-blue:hover{opacity:.875}.button-blue:active,.button-blue.is-active{box-shadow:inset 0 0 0 32px rgba(0,0,0,0.125),inset 0 2px 3px 0 rgba(0,0,0,0.25)}.button-blue:focus{outline:none;box-shadow:0 0 0 2px rgba(255,255,255,0.5),0 0 1px 4px rgba(0,118,223,0.5)}.button-blue:disabled,.button-blue.is-disabled{opacity:.5}.highlight{-webkit-text-size-adjust:none}.highlight .c,.highlight .cs,.highlight .cm,.highlight .cp,.highlight .c1{color:#777;font-style:italic}.highlight .k,.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kr,.highlight .kt,.highlight .kp{color:#00369f}.highlight .na,.highlight .nb,.highlight .nc,.highlight .no,.highlight .nd,.highlight .ni,.highlight .ne,.highlight .nf,.highlight .nl,.highlight .nn,.highlight .nx{color:#444}.highlight .mi,.highlight .il{color:#009f06}.highlight .s,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .s3,.highlight .sh,.highlight .si,.highlight .sx,.highlight .sr,.highlight .ss,.highlight .s1{color:#f95020}.hljs-title,.hljs-id,.scss .hljs-preprocessor{color:#f95020;font-weight:500}.highlight .k{font-weight:normal}.highlight .nc,.highlight .no{color:#00369f}.highlight .o{color:#00369f;font-weight:normal}.highlight .nb{color:#009f06}.highlight .sr{color:#009f06}.highlight .ss{color:#f92080}.hljs-built_in{color:#00369f}.hljs-preprocessor,.hljs-pragma,.hljs-pi,.hljs-doctype,.hljs-shebang,.hljs-cdata{color:#777;font-weight:500}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.diff .hljs-change{background:#00369f}.hljs-chunk{color:#ccc}body{color:var(--text);background-color:var(--bg)}a{color:#0076df;text-decoration:none}a:hover{text-decoration:underline}pre,code{background-color:var(--hint);border-radius:3px}hr{border:0;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#ccc}.dark-gray{color:#444}.white{color:white}.blue{color:#0076df}.mid-gray{color:#777}.light-gray{color:#ccc}.lighter-gray{color:#E8E8E8}.red{color:#f95020}.red-brand{color:#c91d1d}.green{color:#00cf26}.yellow{color:#efcc00}.orange{color:#fc2}.bg-dark-gray{background-color:#444}.bg-white{background-color:white}.bg-blue{background-color:#0076df}.bg-mid-gray{background-color:#777}.bg-light-gray{background-color:#ccc}.bg-lighter-gray{background-color:#E8E8E8}.bg-red{background-color:#f95020}.bg-red-brand{color:#c91d1d}.bg-green{background-color:#00cf26}.bg-yellow{background-color:#efcc00}.bg-orange{background-color:#fc2}.bg-darken-1{background-color:rgba(0,0,0,0.0625)}.bg-darken-2{background-color:rgba(0,0,0,0.125)}.bg-darken-3{background-color:rgba(0,0,0,0.25)}.bg-darken-4{background-color:rgba(0,0,0,0.5)}html,html[data-theme="light"]{--bg: white;--bg-secondary: #efefef;--headings: #222;--text: #444;--hint: #777;--brand: #E5210B}html[data-theme="dark"]{--bg: #222222;--bg-secondary: #333333;--headings: #ffffff;--text: #dddddd;--hint: #bbbbbb;--brand: #F25618}html[data-theme="dark"] .site-header .site-title img{-webkit-filter:invert(1);filter:invert(1)}@media (prefers-color-scheme: dark){html,html[data-theme="light"]{--bg: white;--bg-secondary: #efefef;--headings: #222;--text: #444;--hint: #777;--brand: #E5210B}html[data-theme="dark"]{--bg: #222222;--bg-secondary: #333333;--headings: #ffffff;--text: #dddddd;--hint: #bbbbbb;--brand: #F25618}html[data-theme="dark"] .site-header .site-title img{-webkit-filter:invert(1);filter:invert(1)}}.h00{font-size:4rem}.h0{font-size:3rem}@media (min-width: 52em){.h00-responsive{font-size:8vw}.h0-responsive{font-size:6vw}.h1-responsive{font-size:4vw}}@media (min-width: 96em){.h00-responsive{font-size:7.68rem}.h0-responsive{font-size:5.76rem}.h1-responsive{font-size:3.84rem}}.bold{font-weight:500}.regular{font-weight:normal}.italic,.post-footer{font-style:italic}.caps{text-transform:uppercase;letter-spacing:.2em}.left-align{text-align:left}.center{text-align:center}.right-align{text-align:right}.justify{text-align:justify}.nowrap{white-space:nowrap}.m0{margin:0}.mt0{margin-top:0}.mr0{margin-right:0}.mb0{margin-bottom:0}.ml0{margin-left:0}.m1{margin:.5rem}.mt1{margin-top:.5rem}.mr1{margin-right:.5rem}.mb1{margin-bottom:.5rem}.ml1{margin-left:.5rem}.m2{margin:1rem}.mt2{margin-top:1rem}.mr2{margin-right:1rem}.mb2{margin-bottom:1rem}.ml2{margin-left:1rem}.m3{margin:2rem}.mt3{margin-top:2rem}.mr3{margin-right:2rem}.mb3{margin-bottom:2rem}.ml3{margin-left:2rem}.m4{margin:3rem}.mt4{margin-top:3rem}.mr4{margin-right:3rem}.mb4{margin-bottom:3rem}.ml4{margin-left:3rem}.mxn1{margin-left:-.5rem;margin-right:-.5rem}.mxn2{margin-left:-1rem;margin-right:-1rem}.mxn3{margin-left:-2rem;margin-right:-2rem}.mxn4{margin-left:-3rem;margin-right:-3rem}.mx-auto{margin-left:auto;margin-right:auto}.p1{padding:.5rem}.py1{padding-top:.5rem;padding-bottom:.5rem}.px1{padding-left:.5rem;padding-right:.5rem}.p2{padding:1rem}.py2{padding-top:1rem;padding-bottom:1rem}.px2{padding-left:1rem;padding-right:1rem}.p3{padding:2rem}.py3{padding-top:2rem;padding-bottom:2rem}.px3{padding-left:2rem;padding-right:2rem}.p4{padding:3rem}.py4{padding-top:3rem;padding-bottom:3rem}.px4{padding-left:3rem;padding-right:3rem}.spacer-block-1{height:auto;padding:.5rem 0}.spacer-block-2{height:auto;padding:1rem 0}.spacer-block-3{height:auto;padding:2rem 0}@media screen and (max-width: 32em){.spacer-block-1{height:auto;padding:0}.spacer-block-2{height:auto;padding:.5rem 0}.spacer-block-3{height:auto;padding:1rem 0}}html,body{height:auto;min-height:100%}img{max-width:100%}em img{max-width:100%;margin-left:0}body{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}a{color:var(--brand);-webkit-transition:all 0.5s ease-out;-moz-transition:all 0.5s ease-out;-o-transition:all 0.5s ease-out;transition:all 0.5s ease-out}a:not(.button):hover,a:not(.button):focus,a:not(.button):active{border:0;color:var(--text);text-decoration:none}.left{float:left}.right{float:right}.clearfix:before,.clearfix:after{content:' ';display:table}.clearfix:after{clear:both}pre,pre code{background-color:transparent;border-radius:0}pre,code{font-family:"Source Code Pro",Consolas,monospace}code{color:#7a7a7a}pre{padding:1.125em;line-height:1.11;overflow-x:scroll;margin-bottom:0.88em;background-color:#fafafa}.highlight .p{font-size:1.125rem;line-height:1}pre{counter-reset:line-numbering;white-space:pre;overflow-x:auto;word-break:inherit;word-wrap:inherit}pre a::before{content:counter(line-numbering);counter-increment:line-numbering;padding-right:1em;width:25px;text-align:right;opacity:0.7;display:inline-block;color:#ccc;margin-right:16px;font-size:13px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}pre a:first-of-type::before{padding-top:10px}pre a:last-of-type::before{padding-bottom:10px}pre a:only-of-type::before{padding:10px}input,select,textarea,fieldset{font-size:1rem;margin-top:0;margin-bottom:.5rem,0.5rem}input[type=text],input[type=datetime],input[type=datetime-local],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=time],input[type=url],input[type=week]{box-sizing:border-box;height:2.25rem;padding:.5rem .5rem;vertical-align:middle;-webkit-appearance:none}select{box-sizing:border-box;line-height:1.75;padding:.5rem .5rem}select:not([multiple]){height:2.25rem;vertical-align:middle}textarea{box-sizing:border-box;line-height:1.75;padding:.5rem .5rem}.form-stacked input:not(.button),.form-stacked textarea,.form-stacked select{width:100%}.field-light{background-color:var(--bg-secondary);color:var(--hint);transition:box-shadow .2s ease;border-style:solid;border-width:1px;border-color:#ccc;border-radius:3px}.field-light:focus{outline:none;border-color:#0076df;box-shadow:0 0 2px rgba(0,118,223,0.5)}.field-light:disabled{color:#777;background-color:var(--bg-secondary)}.field-light:read-only:not(select){background-color:var(--bg-secondary)}.field-light:invalid{border-color:#f95020}.field-light.is-success{border-color:#00cf26}.field-light.is-warning{border-color:#efcc00}.field-light.is-error{border-color:#f95020}.radio-light,.checkbox-light{transition:box-shadow .2s ease}.radio-light{border-radius:50%}.radio-light:focus,.checkbox-light:focus{outline:none;box-shadow:0 0 2px rgba(0,118,223,0.5)}html{font-size:20px}abbr{border-bottom:1px black dotted;cursor:help}p{color:#444;line-height:1.65}small,.small{font-size:0.95rem}.site-header{padding-top:2rem;padding-bottom:2rem;margin-bottom:0;z-index:100}.site-header a{color:var(--headings);font-size:1rem;font-weight:400}.site-header .site-title{font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif;font-size:1rem;color:var(--headings);font-weight:500}.site-header .site-title img{max-height:20px;border-radius:0}.site-nav{margin-top:1rem;margin-left:0}.site-header nav a{color:var(--headings)}.site-header nav a:hover,.site-header nav a:focus,.site-header nav a:active{color:white;background:var(--brand)}.site-nav a+a{margin-left:1em}.site-header a:hover,.posts .post a:hover .post-meta,.posts .post a:hover .post-title,.posts .post a:hover .post-summary{opacity:0.88}.site-header{text-align:center}.site-header .site-nav{text-align:center}table{width:100%;max-width:100%;margin-bottom:1.5;font-size:1.125rem}table>thead>tr>th,table>thead>tr>td,table>tbody>tr>th,table>tbody>tr>td,table>tfoot>tr>th,table>tfoot>tr>td{padding:12px;line-height:1.2;vertical-align:top;border-top:1px solid var(--hint)}table>thead>tr>th{vertical-align:bottom;border-bottom:1px solid var(--hint)}table>caption+thead>tr:first-child>th,table>caption+thead>tr:first-child>td,table>colgroup+thead>tr:first-child>th,table>colgroup+thead>tr:first-child>td,table>thead:first-child>tr:first-child>th,table>thead:first-child>tr:first-child>td{border-top:0}table>tbody+tbody{border-top:1px solid var(--hint)}table{width:100%;max-width:100%;margin-bottom:1.5;font-size:1.125rem}table>thead>tr>th,table>thead>tr>td,table>tbody>tr>th,table>tbody>tr>td,table>tfoot>tr>th,table>tfoot>tr>td{padding:12px;line-height:1.2;vertical-align:top;border-top:1px solid var(--hint)}table>thead>tr>th{vertical-align:bottom;border-bottom:1px solid var(--hint)}table>caption+thead>tr:first-child>th,table>caption+thead>tr:first-child>td,table>colgroup+thead>tr:first-child>th,table>colgroup+thead>tr:first-child>td,table>thead:first-child>tr:first-child>th,table>thead:first-child>tr:first-child>td{border-top:0}table>tbody+tbody{border-top:1px solid var(--hint)}.site{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;min-height:100vh}.site-wrap{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}footer{background-color:var(--bg-secondary);border-top:var(--hint);color:var(--hint);font-size:.75rem;font-weight:400;padding:2rem;text-align:center}.social-icons-left,.social-icons-right{text-align:center;float:none}.social-icons{font-size:1.25rem;padding:0.5em 0 0 0;width:100%}.social-icons a.fa{cursor:pointer;opacity:0.8;padding:0.2em}.social-icons a.fa:hover{opacity:1}.social-icons iframe[title=Flattr]{position:relative;top:0.1em}blockquote{font-style:italic;text-align:left;margin-left:.5rem;padding:.5rem}blockquote footer{background-color:#fff;border-color:transparent;color:#7a7a7a;font-size:.85rem;font-style:normal;text-align:left;padding:0}blockquote.highlighted{background-color:#163d6f;margin-top:2em;margin-bottom:2em;padding:2rem 0}blockquote.highlighted .label,blockquote.highlighted p{font-style:normal;color:white}.posts{margin:0}.posts .post{margin-bottom:0.75em;border-bottom:thin solid #f3f3f3}.posts .post:last-child{border-bottom:none;margin-bottom:.375em}.post-link .post-title{margin-top:0;font-weight:500;color:var(--headings);margin-bottom:.5rem}.post-footer{margin-top:.75rem;text-align:center}.post-footer .avatar{margin:2rem 0;width:100px;border-radius:50%}.meta,.post-meta{width:auto;font-weight:400;margin:0;padding:.25em 0;color:var(--hint);font-style:italic}.related-post-title{border-bottom:thin solid #f3f3f3}.list{display:flex;flex-flow:row wrap;-webkit-justify-content:space-between;justify-content:space-between;margin:0}.list .post-entry{display:flex}.list .wrap{position:relative;line-height:0;overflow:hidden;-webkit-transition:0.8s cubic-bezier(0.2, 1, 0.2, 1);-o-transition:0.8s cubic-bezier(0.2, 1, 0.2, 1);transition:0.8s cubic-bezier(0.2, 1, 0.2, 1)}.list .wrap:hover{-webkit-box-shadow:0 5px 10px 0 rgba(0,0,0,0.15);box-shadow:0 5px 10px 0 rgba(0,0,0,0.15)}.trip .post-header{max-width:650px;margin:0 auto;line-height:1.4}.trip .post-header h1{text-align:center}.highlight .trip .py3{width:100%}.list .thumb{-moz-transition:all 2.3s;-webkit-transition:all 2.3s;transition:all 2.3s}.list .thumb:hover{-moz-transform:scale(1.15);-webkit-transform:scale(1.15);transform:scale(1.15)}.list .img{width:100%;padding-bottom:66.77%;margin-top:-1em;background-position:50% 50%;background-repeat:no-repeat;background-size:cover}@media screen and (min-width: 48em){.list .img{height:600px;padding-bottom:0;background-attachment:fixed}}.trip blockquote{margin:0 auto}.list .summary{width:33.33%;text-align:left;padding-right:1em}.list .thumbnail{width:66.67%}.list .summary p{color:var(--text);margin-bottom:0.5em}.list .summary .title{font-weight:500;color:var(--headings);margin-top:0;margin-bottom:0.25rem}.list p.meta{color:#EFEFEF}.post-entry{padding-bottom:0}.post-entry:last-child{padding-bottom:1.5rem}html.projects .posts{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between}figcaption,figcaption p{margin:0 auto;margin-bottom:2em;padding:0.1em 0 0.5em 0;text-align:left;font-size:0.8em;border-bottom:2px solid var(--bg-secondary)}figure{text-align:center;margin:auto}figure:not(.no-bg-color) img{background-color:white}.trip-content{position:relative;overflow:hidden;margin:0 auto;display:flex;flex-wrap:wrap}.trip-content span{max-width:650px}.trip-content h4{width:100%;font-size:1.8em;margin-bottom:1em}.trip-content h2,.trip-content h3,.trip-content h4{text-align:center}.trip-content p{max-width:650px;margin:1em auto}.trip-content video{display:block;max-width:100%;margin:2em auto}.trip-content .img-small{width:43.5%}.trip .social-btns{max-width:1000px;margin:0 auto;padding:1em 0}.trip .share-btn,.trip #like-btn,.trip #like-btn.in{margin-left:1em}.trip .share-btn:first-child{margin-left:0}.set{display:flex;flex-wrap:wrap}.set .set-item:first-child{margin-left:0 !important}.set .set-item:last-child{margin-right:0 !important}#shots{display:flex;flex-wrap:wrap;max-width:650px;margin:auto}#shots .shot{display:block;width:100%;margin:1rem 0;text-decoration:none}@media screen and (max-width: 48em){.trip .py3{width:100%}.list .summary{width:50%}.list .thumbnail{width:50%}}@media screen and (max-width: 32em){.list .img{padding-bottom:50.77%;background-size:150%}.trip-content .img-small{width:100%}.trip-content figure,.trip-content .video-container{width:100% !important}.list .post-entry{flex-direction:column}.list .summary,.list .thumbnail{width:100%}.list .summary{margin:.875rem 0 1rem 0}}@media screen and (min-width: 32em){html{font-size:16px;overflow-x:hidden}h1,.h1{font-size:2rem}.site-header{text-align:left}.site-header a{font-size:1rem}.site-header .site-title{font-size:1rem;float:left}.site-header .site-nav{float:left;margin-top:0;margin-left:3rem}.social-icons-left{text-align:left}.social-icons-right{text-align:right}}@media screen and (min-width: 48em){html{font-size:18px}}@media screen and (min-width: 64em){html{font-size:18px}}@media screen and (min-width: 78em){em img{max-width:1169px;margin-left:-7em}}.gist,.gist .highlight .p{font-size:.75rem}.gist .lines{width:100%}.measure{margin:0 auto;max-width:1155px}.pagination{font-size:1rem;font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif;font-weight:400;text-align:center}.pagination a,.pagination .disabled{-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;background:#fafafa;border-radius:0.1875em;border:1px solid #f3f3f3;color:var(--text);padding:1em 1.5em}.pagination .disabled{opacity:0.5}.pagination a:hover,.pagination a:focus{background:white;color:#477dca}.pagination a:active{background:#f7f7f7}.pagination .button{font-size:1rem;font-weight:400;letter-spacing:1px}.button-disabled{opacity:0.55;background-color:var(--hint)}.button-disabled:hover,.button-disabled:active,.button-disabled:focus{cursor:not-allowed;background-color:var(--hint)}.site-title{padding-top:4px}.site-header{box-sizing:border-box}.site-header nav a{padding:0.3em 0.6em 0.3em 0.6em;border-radius:none;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-webkit-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out}.site-header nav a:hover,.site-header nav a.current{background-color:var(--brand);color:white}.posts a.post-link{padding:0.1em 0.4em 0.1em 0.4em;font-weight:500;color:var(--brand);font-size:.875rem}.posts a.post-link:hover{color:white;background-color:var(--brand)}.post-header{text-align:center;margin-bottom:2em}.post-header.project{display:flex;text-align:left}.project-summary{max-width:50%}.project-meta{padding-top:2em;max-width:50%}.project-summary{padding-right:5%}.project-meta span{display:inline-block;background:var(--bg-secondary);padding:0.2em 0.6em;margin:0.1em 0 0.2em 0;border-radius:20px;color:var(--hint)}.posts .post-entry .summary span:not(:last-of-type)::after{content:" · "}.meta,.post-meta{font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif;font-size:1rem;font-style:normal}p,.p,.f4,dl,ol,ul{font-size:1rem;line-height:1.65}.home .measure>h1,.home .measure h2{color:var(--headings);font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif}.home .measure>p{max-width:650px}.p2{padding:1rem 2rem}.footer,.site-wrap:after{height:60px}.site-wrap{min-height:100%}.text-width{max-width:650px}section{padding:2em 0 2.5em 0}footer{padding:1rem 0 1.5rem 0}.footer p2{padding:1rem 2rem}table{border-collapse:collapse;padding:0;width:100%}table th{text-align:left;border-top:2px solid var(--bg-secondary);vertical-align:bottom;padding:0 1em 1em 1em}table td{border-top:2px solid var(--bg-secondary);vertical-align:top;padding:1em;text-align:left}table>tbody>th:nth-child(1),table>tbody>tr td:nth-child(1){text-align:left;padding-left:0}ul{line-height:1.65;max-width:650px;margin:1em auto}p,.p{font-weight:400;line-height:1.65;color:var(--text)}h1,h2,h3,h4,h5,h6{color:var(--headings)}.avatar{display:block;margin:1.5em auto;width:110px;height:110px}.avatar img{border:1px solid var(--bg);border-radius:400px}.intro-text{display:block;max-width:650px}.post-content p,.post-content table{max-width:650px;margin:1.6em auto}.post-content h2{text-align:left}.post-content h3{margin-top:2rem}.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{max-width:650px;margin-left:auto;margin-right:auto}.post-content hr{max-width:650px}hr{border:none;text-align:center;height:20px;width:100%}hr:before{content:'...';display:inline-block;color:var(--brand);position:relative;top:-30px;font-size:2em;letter-spacing:.6em;left:10px}.home hr{width:100px;margin:3em 0}.home hr:before{content:none}.horizontal-bar{display:block;height:4px;width:70px;background:var(--brand)}.key-category{display:inline-block}.home .posts .post{border-bottom:0}.home .posts .post:not(:first-child){padding-top:1rem}.home .posts .post:not(:last-child){padding-bottom:0}.my-video{height:0;padding-top:25px;padding-bottom:67.5%;margin-bottom:10px;position:relative;overflow:hidden}.my-video.wide-screen{padding-bottom:56.34%}.my-video.vimeo{padding-top:0}.my-video embed,.my-video iframe,.my-video object,.my-video video{top:0;left:0;width:100%;height:100%;position:absolute}.blog .posts{max-width:650px}.post-link .post-title{color:var(--text)}.posts .post{margin-bottom:0}.post a:not(.button):not(.post-link){color:#444;font-weight:500;color:#3a8bbb}.post a:not(.button):not(.post-link):hover{color:white;background-color:#3a8bbb}.post a.no-underline{background-image:none !important}.button:focus{outline:0}#summary{max-width:650px;margin:0 auto}.button{display:block;margin-bottom:1rem;padding:0.6rem 1rem 0.8em;font-size:0.9rem;background:var(--headings);color:var(--bg);border-radius:2px;-webkit-transition:0.8s cubic-bezier(0.2, 1, 0.2, 1);-o-transition:0.8s cubic-bezier(0.2, 1, 0.2, 1);transition:0.8s cubic-bezier(0.2, 1, 0.2, 1);cursor:pointer}.button:hover{background:var(--brand)}.more-posts{max-width:1155px;margin:4em auto 1em auto;padding:1em 0 1em 0;border-top:1px dashed var(--hint)}.more-posts h3{margin-bottom:1.5rem}.more-posts .post{width:48%;margin-left:0}.more-posts .post h4{margin:1em 0 0 0}.more-posts .post p{margin:0.2em 0 1.5em 0;font-size:0.9em;line-height:1.3rem}.more-posts .post:first-of-type .post-title:after{content:"★";color:#FF4848;margin-left:5px}small{margin:0 0.2rem}.full-width{width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw}@media screen and (max-width: 48em){canvas{width:100%}.post-header.project{flex-direction:column}.project-summary,.project-meta{max-width:100%;padding-top:0}}@media screen and (max-width: 32em){html{font-size:16px}h1,.h1{font-size:1.4rem;line-height:1.6}h2,.h2{font-size:1.2rem}h3,.h3{font-size:1.1rem}.site-header{margin-bottom:0;padding-bottom:0}.site-header a{font-size:1rem}table,tbody{display:block;width:100%}thead{display:none}table>tbody>tr,table th,table>tbody>tr>td{display:block;text-align:left}table tr{border-bottom:1px solid #eee;margin-bottom:1em}table th[data-title]:before,table td[data-title]:before{content:attr(data-title) ": ";font-weight:500}table>tbody>tr>td{border:none;empty-cells:hide;padding:0.5em 0}table>tbody>tr>td:empty{display:none}table>tbody>tr>td:first-child{font-weight:500;font-size:1.1em}table td:first-child:before{content:''}.more-posts .post{width:100%;margin-bottom:0}.more-posts .btn-back{margin:auto}.button{margin-left:auto;margin-right:auto}}footer a{color:#7a7a7a}:root{--switch-width: 64px;--switch-height: 32px;--switch-padding: 3px;--switch-animation-duration: 0.2s}.switch{display:flex;flex-shrink:0;align-items:center;position:relative;width:var(--switch-width);height:var(--switch-height);border-radius:50em;float:right}.switch__input,.switch__label{position:absolute;left:0;top:0}.switch__input{margin:0;padding:0;opacity:0;height:0;width:0;pointer-events:none}.switch__input:checked+.switch__label{background-color:var(--brand)}.switch__input:checked+.switch__label+.switch__marker{left:calc(100% - var(--switch-height) + var(--switch-padding))}.switch__input:focus+.switch__label,.switch__input:active+.switch__label{box-shadow:0 0 0 3px rgba(242,73,12,0.2)}.switch__label{width:100%;height:100%;color:transparent;user-select:none;background-color:var(--bg-secondary);border-radius:inherit;z-index:1;transition:background var(--switch-animation-duration)}.switch__marker{position:relative;background-color:var(--bg);width:calc(var(--switch-height) - var(--switch-padding) * 2);height:calc(var(--switch-height) - var(--switch-padding) * 2);border-radius:50%;z-index:2;pointer-events:none;box-shadow:0 1px 1px rgba(0,0,0,0.25);left:var(--switch-padding);transition:left var(--switch-animation-duration);will-change:left;line-height:27px;text-align:center;vertical-align:middle}@media screen and (max-width: 32em){html:not(.home) .switch{float:none;margin:1.5em auto}}html{scroll-behavior:smooth}.section-nav-container{max-width:650px;margin-left:2rem}.section-nav-container .section-nav-title{color:var(--hint)}@media screen and (min-width: 48em){.section-nav-container{display:block;position:sticky;top:2rem;align-self:start}}.post .section-nav{padding-left:0}.post .section-nav li.toc-entry{list-style:none}.post .section-nav li.toc-entry.active>a{color:var(--headings);font-weight:500;border-left:1px solid var(--headings)}.post .section-nav li.toc-entry>a{text-decoration:none;display:block;padding:.5rem 0;padding-left:1rem;color:var(--hint);font-size:0.85rem;font-weight:normal;border-left:1px solid var(--bg-secondary);transition:all 50ms ease-in-out}main{display:flex;flex-direction:column-reverse}@media screen and (min-width: 48em){main{display:grid;grid-template-columns:1fr 15em}}
+
+    </style>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins:400,400i,500' rel='stylesheet' type='text/css'>
+    
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+    <!-- Verifications -->
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Making travel marketplace trustworthy">
+    <meta property="og:description" content="&lt;p&gt;Wego is the largest online travel marketplace in the Middle East and North Africa. In 2016, the search experience was redesigned to acommodate the changing demographics of Wego users having various usage.&lt;/p&gt; &lt;p&gt;We were tasked to help travellers find their travel packages quickly, and at the same time bring the right travel products provided by our business partners to the right customers. The focused metric was the conversion rate of the search funnel.&lt;/p&gt;">
+    <meta property="og:url" content="https://ryanntt.com/projects/wego">
+    <meta property="og:site_name" content="Ryan Nguyen">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+        <meta name="twitter:site" content="@ryannguyentt" />
+    
+    <meta name="twitter:title" content="Making travel marketplace trustworthy" />
+    <meta name="twitter:description" content="<p>Wego is the largest online travel marketplace in the Middle East and North Africa. In 2016, the search experience was redesigned to acommodate the changing demographics of Wego users having various usage.</p> <p>We were tasked to help travellers find their travel packages quickly, and at the same time bring the right travel products provided by our business partners to the right customers. The focused metric was the conversion rate of the search funnel.</p>" />
+    <meta name="twitter:url" content="https://ryanntt.com/projects/wego" />
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+
+    
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NMCCW9"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NMCCW9');
+    </script>
+    <!-- End Google Tag Manager -->
+    
+
+    <!-- Chatbot Script -->
+    
+    <!-- End Chatbot Script -->
+
+    <!-- Custom Script -->
+    
+    <!-- End Custom Script -->
+</head>
+
+
+<body class="site">
+  <div class="site-wrap"></div>
+    
+        <header class="site-header px2 px-responsive">
+  <div class="mt1 wrap">
+    <div class="measure">
+      <a href="https://ryanntt.com" class="site-title">
+        <img src="../images/logo.png"></img>
+      </a>
+      <nav class="site-nav">
+        
+<a href="/projects/" class='current'>Case Studies</a>
+<a href="/blog/" >Writings</a>
+
+      </nav>
+      <!-- <button id="theme-toggle" onclick="modeSwitcher()" class="theme-toggle-button"></button> -->
+      <div class="switch theme-toggle-button">
+        <input class="switch__input" type="checkbox" id="theme-toggle" onclick="modeSwitcher()">
+        <label class="switch__label" for="theme-toggle">Dark Mode</label>
+        <div aria-hidden="true" class="switch__marker" id="theme-label"></div>
+      </div>
+      <div class="clearfix"></div>
+      
+    </div>
+  </div>
+</header>
+
+    
+    <div class="post px2 py2 wrap" role="main" id="2018-11-19">
+      <div class="measure">
+        
+
+
+
+
+  <div class="post-header mb2 project">
+
+
+  
+    <div class="project-summary">
+      <h1>Making travel marketplace trustworthy</h1>
+      <p><p>Wego is the largest online travel marketplace in the Middle East and North Africa. In 2016, the search experience was redesigned to acommodate the changing demographics of Wego users having various usage.</p> <p>We were tasked to help travellers find their travel packages quickly, and at the same time bring the right travel products provided by our business partners to the right customers. The focused metric was the conversion rate of the search funnel.</p></p>
+    </div>
+    <div class="project-meta">
+      <h4>Role</h4>
+      <p><span>Design research</span> <span>Interaction design</span> <span>Interface design</span></p>
+      <h4>Year</h4>
+      <p>June 2016 - January 2017</p>
+    </div>
+  
+
+  
+</div>
+
+
+
+<div class="spacer-block-2"></div>
+
+<figure class="project-hero full-width" style="background: #c3e6f0; ">
+    <img src= https://res.cloudinary.com/ryanntt/image/upload/s--xUqD2al3--/c_fill,h_1082,w_1536/v1508772728/wego/desktop-web.png >
+</figure>
+
+<div class="spacer-block-2"></div>
+
+
+<main>
+  <article class="post-content">
+    <h2 id="role">Role</h2>
+
+<p>I led the design project from research phase in June 2016 to the finalisation of the interface design in January 2017. I worked as the only designer for Flight Search and with another designer in designing for Hotel Search.</p>
+
+<h2 id="problems">Problems</h2>
+
+<p>As travelling had become more accessible and affordable to people, designing for any travel marketplace needed to consider different needs of all customers. The diversity in purposes and demographics of travellers posed a challenge in designing for Wego to help customers find the right travel products.</p>
+
+<p>We gathered customers’ qualitative feedback and recognised that people had many different expectations when reaching our platform. These expectations were either different or higher than what we designed the search experience in 2013 for. We also recognised many drop-off points in the search funnel in Google Analytics, which validated our initial qualitative insights.</p>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--NOPRsZcg--/c_scale,h_891,w_1536/v1542627016/wego/conversion-funnel.png" />
+    <figcaption>The funnel in Google Analytics showed that people had a hard time finding the right travel products.</figcaption>
+</figure>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--rgA3An0W--/c_scale,h_1082,w_1536/v1542627032/wego/purposes-constraints.png" />
+    <figcaption>We looked at purposes and constraints when people travel to build the context of our design.</figcaption>
+</figure>
+
+<div class="spacer-block-1"></div>
+
+<blockquote class="highlighted full-width">
+    <div class="spacer-block-1"></div>
+    <h2 class="label">Reframed challenge</h2>
+    <p>How to gain trust from customers and manage their expectation of values throughout the funnel from the search form to the final booking with our business partners?</p>
+    <div class="spacer-block-1"></div>
+</blockquote>
+
+<div class="spacer-block-1"></div>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--Jg2q7W00--/c_scale,w_1536/v1542627030/wego/problem-themes.png" />
+    <figcaption>We identified the themes of problems and worked out the solution criteria as well.</figcaption>
+</figure>
+
+<hr />
+
+<h2 id="solution">Solution</h2>
+
+<h3 id="transparent--fair--trustworthy">Transparent + Fair = Trustworthy</h3>
+
+<p>A meta-search website build trustworthiness by being transparent about available data and fair to all products in the marketplace. With a database having data of all flights and hotels, we provide transparent travel information so that people can make informed decision. Having more data comes with the responsibility to extract and show the meaningful bits. An user-centric marketplace does not simply display as many products as possible, but need to make the decision-making process worry-free for the customers. We also wanted to show the right products from our partners to our users without any hidden bias.</p>
+
+<h3 id="transparent">Transparent</h3>
+
+<p>A problem for any travel search engine is the time required for data polling after user hit button Search, which make people feel like waiting for long time. In this design concept, the problem is solved by a progressive loading animation. The new loading animation intend to create a sense of frictionless experience, taking people to their exciting destination by having big image and “opening up” movement of elements. My idea is inspired by article The <a href="https://medium.com/swlh/the-illusion-of-time-8f321fa2f191">Illusion of Time, by Adrian</a>, which introduces solving time perception with illusion, instead of actual speed. The design also displays which business partners our platform is working with to provide the best results.</p>
+
+<figure style="max-width: 800px;">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--j-iUcCZX--/q_100/v1508685363/wego/wego-search-animation.gif" />
+    <figcaption>Animation of search transition.</figcaption>
+</figure>
+
+<h3 id="fair">Fair</h3>
+
+<p>We wanted to help customers, both experienced and inexperienced travellers, make informed decision based on their travel preferences. At the same time, we wanted to help bring the right travel products from our business partners to the right customers.</p>
+
+<div class="spacer-block-2"></div>
+
+<figure>
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--SCgGOlUF--/c_scale,h_790,w_1536/v1542627032/wego/flights-view-deal-buttons.png" />
+    <figcaption>Button design has value differential indicators.</figcaption>
+</figure>
+
+<div class="spacer-block-2"></div>
+
+<figure>
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--xO4mZePu--/c_scale,h_617,w_1536/v1542627045/wego/hotel-card.png" />
+    <figcaption>Hotel partners are displayed with their offers to indicate value differences.</figcaption>
+</figure>
+
+<h3 id="flexible--helpful--empowering">Flexible + Helpful = Empowering</h3>
+
+<p>The act of searching is active, and, therefore, we want to empower our customer with flexible ways to view the results and be responsive and helpful when they are likely to be confused.</p>
+
+<h3 id="helpful">Helpful</h3>
+
+<p>Most customers want to get the cheapest (with flexible timing), the fastest (to save time), or the most comfortable (especially long flight) options. We, therefore, made these the sorting orders to improve their usage.</p>
+
+<div class="spacer-block-2"></div>
+
+<figure>
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--ylzgm1Q3--/c_scale,h_507,w_1536/v1542627030/wego/flights-sorting.png" />
+    <figcaption>Flight sorting with clear labels justifying its price.</figcaption>
+</figure>
+
+<div class="spacer-block-2"></div>
+
+<figure>
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--I7yNVWv3--/c_scale,h_1019,w_1536/v1542627025/wego/flights-contextual-filters.png" />
+    <figcaption>To help those customers not used to filters, we provide contextual filters for flight search.</figcaption>
+</figure>
+
+<h3 id="flexible">Flexible</h3>
+
+<p>The collapsible filters allow a quick overview of what people can select. The UI components such as dropdown, slider and checkbox are used to help user find their preferred flights. The status at the top shows how many flights are being displayed out of how many flights found in the search unfiltered. When people choose Show All, all filters are reset. The copy Show All is proven to be clearer than Reset. Google Analytics showed that using certain filters lead to higher conversion rate of booking. The order of filters was based on this finding.</p>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--pEOnQFD7--/c_scale,w_1536/v1542790600/wego/filters.png" />
+    <figcaption>New filters was added and the most commonly and requested ones were prioritised in the interface.</figcaption>
+</figure>
+
+<p>In mobile interface, the filter control stays at bottom of the screen for better usability. The commonly used filters are visible while other filters are accessed through button More.</p>
+
+<figure style="max-width: 800px;">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s---fCx9Okm--/v1508684319/wego/hotels-map-short.gif" />
+    <figcaption>The filters were designed according to common constraints travellers have.</figcaption>
+</figure>
+
+<hr />
+
+<h2 id="component-based-design-process">Component-based design process</h2>
+
+<p>As our products are on desktop, tablet, mobile devices with different screen sizes, we designed the responsive components firstly then compiled them all into pages and screens. Each component went through many rounds of iteration and the library of components is maintained and shared among designers in our team.</p>
+
+<figure>
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--r-OwbaoB--/c_scale,h_1001,w_1536/v1542696849/wego/component-based-framework.png" />
+    <figcaption>The component-based design process was inspired by <a href="http://www.gv.com/sprint/" target="_blank">Design Sprint of GV</a>. </figcaption>
+</figure>
+
+<div class="spacer-block-1"></div>
+
+<figure style="max-height:690px;">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--nBsTPpU9--/c_scale,w_2000/v1542627028/wego/component-based-approach-1.png" />
+</figure>
+
+<figure>
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--vhMvMKNc--/c_scale,h_1170,w_2000/v1542627027/wego/component-based-approach-2.png" />
+</figure>
+
+<hr />
+
+<h2 id="results">Results</h2>
+
+<p>The redesign of search experience was launched in July 2017. Conversion rate from the search form to the handoffs to our partners’ website went up significantly. The usage rate of filters was higher. After this launch, Wego received <a href="https://www.entrepreneur.com/article/299724">another round of funding</a> in August and September 2017.</p>
+
+<h2 id="reflection">Reflection</h2>
+
+<p>Two achievements I am proud of the most when working in Wego are the integration of design in product development, and the synergy of design team.</p>
+
+<p>Designers belonged to the project team and worked along with developers, product managers and business managers to understand both business and development of the product. Its value has been proven by the consistency between the designed and implemented user experience.</p>
+
+<p>In March 2015, I was the only hire in design team in Singapore office. Our team grew to four by end of 2015. I established workflow to help design team instill core principles of design across different projects and grow as individual by giving honest feedback and critique to each other’s work. This synergy has been reflected well in the improvement and consistency of user experience in all of our products since 2015.</p>
+
+<p class="mid-gray">All information in this case study is my own and does not necessarily reflect Wego's view.</p>
+
+  </article>
+
+  <nav class="section-nav-container">
+    <h4 class="section-nav-title">In this page</h4>
+    
+  </nav>
+</main>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="more-posts">
+    <h3 class="title">You may also enjoy</h3>  
+    <div class="list">
+      
+        
+          
+            
+                
+              <div class="post ml2">
+                
+                <a href="/projects/light-wave" class="post-link">
+                  <div class="wrap">
+                    <img class="thumb" src="https://res.cloudinary.com/ryanntt/image/upload/s--Xs4yp45V--/c_fill,h_1082,w_1536/v1548480050/light-wave/light-wave-thumbnail.png" ref="designing for trust between autonomous cars and human" alt="Designing for trust between autonomous cars and human">  
+                  </div>
+                </a>
+                
+                <a href="/projects/light-wave" class="post-link">
+                  <h4 class="post-title">Designing for trust between autonomous cars and human</h4>
+                  <p class="post-meta">
+                    
+                      <span>Design research</span>  <span>Interaction design</span> <span>Interface design</span>
+                      
+                  </p>              
+                </a>
+              </div>
+            
+                 
+        
+        
+      
+        
+                 
+        
+        
+      
+        
+          
+            
+                 
+        
+        
+      
+        
+          
+            
+                 
+        
+        
+      
+        
+          
+            
+                
+              <div class="post ml2">
+                
+                <a href="/projects/floathink" class="post-link">
+                  <div class="wrap">
+                    <img class="thumb" src="https://res.cloudinary.com/ryanntt/image/upload/s--MtFPEfjA--/c_fill,h_1200,w_1700/v1548519844/floathink/floathink-thumbnail.png" ref="making places playful" alt="Making places playful">  
+                  </div>
+                </a>
+                
+                <a href="/projects/floathink" class="post-link">
+                  <h4 class="post-title">Making places playful</h4>
+                  <p class="post-meta">
+                    
+                      <span>Design research</span>  <span>Interaction design</span> <span>Physical prototyping</span> <span>Place-making</span>
+                      
+                  </p>              
+                </a>
+              </div>
+            
+                 
+        
+        
+          
+    </div>
+
+    
+    <form action="/projects" class="btn-back">
+      
+      <input type="submit" class="button button-big mobile-block" value="View All Case Studies" />
+        
+    </form>
+    
+  </section>
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="avatar">
+    <img src="../images/me.png"/>
+  </div>
+  <div class="measure">
+    <small>
+      <a target="_blank" class="no-underline" href="https://ryanntt.com/feed.xml">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-rss fa-stack-1x"></i>
+        </span>
+      </a>
+      <a target="_blank" class="no-underline" href="https://linkedin.com/in/ryanntt">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-linkedin fa-stack-1x"></i>
+        </span>
+      </a>
+      <a target="_blank" class="no-underline" href="https://twitter.com/ryannguyentt">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-twitter fa-stack-1x"></i>
+        </span>
+      </a>
+      <a target="_blank" class="no-underline" href="https://dribbble.com/ryanntt">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-dribbble fa-stack-1x"></i>
+        </span>
+      </a>
+      <a target="_blank" class="no-underline" href="https://medium.com/@ryanntt">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-medium fa-stack-1x"></i>
+        </span>
+      </a>
+    </small>
+    <small style="display:block; margin: 0.2rem 0">
+      <a href="mailto:hello@ryanntt.com">hello@ryanntt.com</a>
+    </small>
+    <small style="display:block; margin: 0.2rem 0">
+      © 2020 Ryan Nguyen
+    </small>
+  </div>
+
+  <script src="/js/fontfaceobserver.js"></script>
+
+  <script>
+    var read = false;
+
+    (function( w ){
+        // if the class is already set, we're good.
+        if( w.document.documentElement.className.indexOf( "fonts-loaded" ) > -1 ){
+            return;
+        }
+        var fontA = new w.FontFaceObserver( "Merriweather", {
+            weight: 300
+        });
+        var fontB = new w.FontFaceObserver( "Lato", {
+            weight: 900
+        });
+        w.Promise
+            .all([fontA.check(), fontB.check()])
+            .then(function(){
+                w.document.documentElement.className += " fonts-loaded";
+                console.log('All fonts are loaded');
+            }, function () {
+                console.log('Web font could not be loaded in time. Falling back to system fonts.');
+            });
+    }( this ));
+  </script>
+
+  <script>
+    // This checks whether system dark mode is set
+    let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
+    // This checks for session storage telling to override the system preferences
+    let theme = sessionStorage.getItem('theme');
+  
+    if (systemInitiatedDark.matches) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      document.getElementById("theme-toggle").checked = true;
+      document.getElementById("theme-label").innerHTML = "🌙";
+      console.log("Hello Dark");
+    } else {
+      document.documentElement.setAttribute('data-theme', 'light');
+      document.getElementById("theme-toggle").checked = false;
+      document.getElementById("theme-label").innerHTML = "☀️";
+      console.log("Hello Light");
+    }
+
+    function prefersColorTest (systemInitiatedDark) {
+      if (systemInitiatedDark.matches) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        document.getElementById("theme-toggle").checked = true;
+        document.getElementById("theme-label").innerHTML = "🌙";
+        // This clears the session storage
+        sessionStorage.setItem('theme', '');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        document.getElementById("theme-toggle").checked = false;
+        document.getElementById("theme-label").innerHTML = "☀️";
+        sessionStorage.setItem('theme', '');
+      }
+    }
+    systemInitiatedDark.addListener(prefersColorTest);
+
+    function modeSwitcher() {
+    // It's important to check for overrides again
+      let theme = sessionStorage.getItem('theme');
+      
+      // Checks if reader selected dark mode
+      if (theme === "dark") {
+        document.documentElement.setAttribute("data-theme", "light");
+        sessionStorage.setItem('theme', 'light');
+        document.getElementById("theme-toggle").checked = false;
+        document.getElementById("theme-label").innerHTML = "☀️";
+        // Checks if reader selected dark mode
+      } else if ( theme === "light") {
+        document.documentElement.setAttribute("data-theme", "dark");
+        sessionStorage.setItem('theme', 'dark');
+        document.getElementById("theme-toggle").checked = true;
+        document.getElementById("theme-label").innerHTML = "🌙";
+      } else if (systemInitiatedDark.matches) {
+        document.documentElement.setAttribute("data-theme", "light");
+        sessionStorage.setItem('theme', 'light');
+        document.getElementById("theme-toggle").checked = false;
+        document.getElementById("theme-label").innerHTML = "☀️";
+      } else {
+        document.documentElement.setAttribute("data-theme", "dark");
+        sessionStorage.setItem('theme', 'dark');
+        document.getElementById("theme-toggle").checked = true;
+        document.getElementById("theme-label").innerHTML = "🌙";
+      }
+    }
+
+    if (theme === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+      sessionStorage.setItem("theme", "dark");
+      document.getElementById("theme-toggle").checked = true;
+      document.getElementById("theme-label").innerHTML = "🌙";
+    } else if (theme === "light") {
+      document.documentElement.setAttribute('data-theme', 'light');
+      sessionStorage.setItem('theme', 'light');
+      document.getElementById("theme-toggle").checked = false;
+      document.getElementById("theme-label").innerHTML = "☀️";
+    }
+  </script>
+</footer>
+
+</body>
+</html>

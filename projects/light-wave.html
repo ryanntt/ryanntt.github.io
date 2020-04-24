@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<!-- #if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->
+<html lang="en" class="fonts-loaded ">
+<!-- #else -->
+<html lang="en" class="">
+<!-- #endif -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Designing for trust between autonomous cars and human &#8211; Ryan Nguyen</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="description" content="&lt;p&gt;Drivers in human-driven car and pedestrians communicate with each other via eye contact and hand gesture, which do not exist in autonomous cars. With autonomous cars being tested in many cities around the world, the lack of interpersonal communication poses a challenge in having clear communication between autonomous cars and pedestrian.&lt;/p&gt; &lt;p&gt;This project aims to design a communication solution and answer the question of how people understand and trust this solution in their interaction with driverless cars, especially in the situation not regulated by a traffic light.&lt;/p&gt;">
+    <meta name="author" content="Ryan Nguyen - UX Designer based in Sydney">
+    <meta name="keywords" content="projects">
+    <link rel="canonical" href="https://ryanntt.com/projects/light-wave">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Ryan Nguyen" href="/feed.xml" />
+
+    <style type="text/css">
+      
+      /*!
+* Pixyll - A simple, beautiful Jekyll theme that's mobile first.
+* @author John Otander <johnotander@gmail.com> (http://johnotander.com/)
+* @link https://github.com/johnotander/pixyll
+* @license MIT
+*//*!
+
+  BASSCSS
+
+  Next-level CSS toolkit - basscss.com
+
+  Made with love by Jxnblk - ©2014 Brent Jackson
+  MIT License http://opensource.org/licenses/MIT
+
+*/button,.button{font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif;font-size:inherit;font-weight:normal;text-decoration:none;cursor:pointer;display:inline-block;box-sizing:border-box;line-height:1.125rem;padding:.5rem 1rem;margin:0;height:auto;border:1px solid transparent;vertical-align:middle;-webkit-appearance:none}::-moz-focus-inner{border:0;padding:0}.button:hover{text-decoration:none}input,select,textarea,fieldset{font-size:1rem;margin-top:0;margin-bottom:.5rem}input[type=text],input[type=datetime],input[type=datetime-local],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=time],input[type=url],input[type=week]{box-sizing:border-box;height:2.25rem;padding:.5rem .5rem;vertical-align:middle;-webkit-appearance:none}select{box-sizing:border-box;line-height:1.75;padding:.5rem .5rem}select:not([multiple]){height:2.25rem;vertical-align:middle}textarea{box-sizing:border-box;line-height:1.75;padding:.5rem .5rem}.fieldset-reset{padding:0;margin-left:0;margin-right:0;border:0}.fieldset-reset legend{padding:0}body,button{margin:0}button,input,select,textarea{font-family:inherit;font-size:100%}img{max-width:100%}figure{margin:0;padding:0}svg{max-height:100%}body{font-family:system,-apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",sans-serif;line-height:1.65;font-size:100%}.fonts-loaded body{font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif}h1,h2,h3,h4,h5,h6{margin:0;padding:0;-webkit-margin-before:0;-webkit-margin-after:0}h1,h2,h3,h4,h5,h6{font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif;font-weight:500;line-height:1.4;margin-top:1em;margin-bottom:.5em}p,dl,ol,ul{font-size:1rem;margin-top:0;margin-bottom:1rem}ol,ul{padding-left:2rem}pre,code,samp{font-family:"Source Code Pro",Consolas,monospace;font-size:inherit}pre{margin-top:0;margin-bottom:1rem;overflow-x:scroll}hr{margin-top:2rem;margin-bottom:2rem}blockquote{margin-top:1rem;margin-bottom:1rem;margin-left:0;padding-left:.5rem;padding-right:.5rem}blockquote,blockquote p{font-size:1.25rem}h1,.h1{font-size:2rem}h2,.h2{font-size:1.5rem}h3,.h3{font-size:1.25rem}h4,.h4{font-size:1rem}h5,.h5{font-size:.875rem}h6,.h6{font-size:.75rem}.list-reset{list-style:none;padding-left:0}.button-blue{color:white;background-color:#0076df;border-radius:3px;transition-duration:.1s;transition-timing-function:ease-out;transition-property:box-shadow, background-color}.button-blue:hover{opacity:.875}.button-blue:active,.button-blue.is-active{box-shadow:inset 0 0 0 32px rgba(0,0,0,0.125),inset 0 2px 3px 0 rgba(0,0,0,0.25)}.button-blue:focus{outline:none;box-shadow:0 0 0 2px rgba(255,255,255,0.5),0 0 1px 4px rgba(0,118,223,0.5)}.button-blue:disabled,.button-blue.is-disabled{opacity:.5}.highlight{-webkit-text-size-adjust:none}.highlight .c,.highlight .cs,.highlight .cm,.highlight .cp,.highlight .c1{color:#777;font-style:italic}.highlight .k,.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kr,.highlight .kt,.highlight .kp{color:#00369f}.highlight .na,.highlight .nb,.highlight .nc,.highlight .no,.highlight .nd,.highlight .ni,.highlight .ne,.highlight .nf,.highlight .nl,.highlight .nn,.highlight .nx{color:#444}.highlight .mi,.highlight .il{color:#009f06}.highlight .s,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .s3,.highlight .sh,.highlight .si,.highlight .sx,.highlight .sr,.highlight .ss,.highlight .s1{color:#f95020}.hljs-title,.hljs-id,.scss .hljs-preprocessor{color:#f95020;font-weight:500}.highlight .k{font-weight:normal}.highlight .nc,.highlight .no{color:#00369f}.highlight .o{color:#00369f;font-weight:normal}.highlight .nb{color:#009f06}.highlight .sr{color:#009f06}.highlight .ss{color:#f92080}.hljs-built_in{color:#00369f}.hljs-preprocessor,.hljs-pragma,.hljs-pi,.hljs-doctype,.hljs-shebang,.hljs-cdata{color:#777;font-weight:500}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.diff .hljs-change{background:#00369f}.hljs-chunk{color:#ccc}body{color:var(--text);background-color:var(--bg)}a{color:#0076df;text-decoration:none}a:hover{text-decoration:underline}pre,code{background-color:var(--hint);border-radius:3px}hr{border:0;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#ccc}.dark-gray{color:#444}.white{color:white}.blue{color:#0076df}.mid-gray{color:#777}.light-gray{color:#ccc}.lighter-gray{color:#E8E8E8}.red{color:#f95020}.red-brand{color:#c91d1d}.green{color:#00cf26}.yellow{color:#efcc00}.orange{color:#fc2}.bg-dark-gray{background-color:#444}.bg-white{background-color:white}.bg-blue{background-color:#0076df}.bg-mid-gray{background-color:#777}.bg-light-gray{background-color:#ccc}.bg-lighter-gray{background-color:#E8E8E8}.bg-red{background-color:#f95020}.bg-red-brand{color:#c91d1d}.bg-green{background-color:#00cf26}.bg-yellow{background-color:#efcc00}.bg-orange{background-color:#fc2}.bg-darken-1{background-color:rgba(0,0,0,0.0625)}.bg-darken-2{background-color:rgba(0,0,0,0.125)}.bg-darken-3{background-color:rgba(0,0,0,0.25)}.bg-darken-4{background-color:rgba(0,0,0,0.5)}html,html[data-theme="light"]{--bg: white;--bg-secondary: #efefef;--headings: #222;--text: #444;--hint: #777;--brand: #E5210B}html[data-theme="dark"]{--bg: #222222;--bg-secondary: #333333;--headings: #ffffff;--text: #dddddd;--hint: #bbbbbb;--brand: #F25618}html[data-theme="dark"] .site-header .site-title img{-webkit-filter:invert(1);filter:invert(1)}@media (prefers-color-scheme: dark){html,html[data-theme="light"]{--bg: white;--bg-secondary: #efefef;--headings: #222;--text: #444;--hint: #777;--brand: #E5210B}html[data-theme="dark"]{--bg: #222222;--bg-secondary: #333333;--headings: #ffffff;--text: #dddddd;--hint: #bbbbbb;--brand: #F25618}html[data-theme="dark"] .site-header .site-title img{-webkit-filter:invert(1);filter:invert(1)}}.h00{font-size:4rem}.h0{font-size:3rem}@media (min-width: 52em){.h00-responsive{font-size:8vw}.h0-responsive{font-size:6vw}.h1-responsive{font-size:4vw}}@media (min-width: 96em){.h00-responsive{font-size:7.68rem}.h0-responsive{font-size:5.76rem}.h1-responsive{font-size:3.84rem}}.bold{font-weight:500}.regular{font-weight:normal}.italic,.post-footer{font-style:italic}.caps{text-transform:uppercase;letter-spacing:.2em}.left-align{text-align:left}.center{text-align:center}.right-align{text-align:right}.justify{text-align:justify}.nowrap{white-space:nowrap}.m0{margin:0}.mt0{margin-top:0}.mr0{margin-right:0}.mb0{margin-bottom:0}.ml0{margin-left:0}.m1{margin:.5rem}.mt1{margin-top:.5rem}.mr1{margin-right:.5rem}.mb1{margin-bottom:.5rem}.ml1{margin-left:.5rem}.m2{margin:1rem}.mt2{margin-top:1rem}.mr2{margin-right:1rem}.mb2{margin-bottom:1rem}.ml2{margin-left:1rem}.m3{margin:2rem}.mt3{margin-top:2rem}.mr3{margin-right:2rem}.mb3{margin-bottom:2rem}.ml3{margin-left:2rem}.m4{margin:3rem}.mt4{margin-top:3rem}.mr4{margin-right:3rem}.mb4{margin-bottom:3rem}.ml4{margin-left:3rem}.mxn1{margin-left:-.5rem;margin-right:-.5rem}.mxn2{margin-left:-1rem;margin-right:-1rem}.mxn3{margin-left:-2rem;margin-right:-2rem}.mxn4{margin-left:-3rem;margin-right:-3rem}.mx-auto{margin-left:auto;margin-right:auto}.p1{padding:.5rem}.py1{padding-top:.5rem;padding-bottom:.5rem}.px1{padding-left:.5rem;padding-right:.5rem}.p2{padding:1rem}.py2{padding-top:1rem;padding-bottom:1rem}.px2{padding-left:1rem;padding-right:1rem}.p3{padding:2rem}.py3{padding-top:2rem;padding-bottom:2rem}.px3{padding-left:2rem;padding-right:2rem}.p4{padding:3rem}.py4{padding-top:3rem;padding-bottom:3rem}.px4{padding-left:3rem;padding-right:3rem}.spacer-block-1{height:auto;padding:.5rem 0}.spacer-block-2{height:auto;padding:1rem 0}.spacer-block-3{height:auto;padding:2rem 0}@media screen and (max-width: 32em){.spacer-block-1{height:auto;padding:0}.spacer-block-2{height:auto;padding:.5rem 0}.spacer-block-3{height:auto;padding:1rem 0}}html,body{height:auto;min-height:100%}img{max-width:100%}em img{max-width:100%;margin-left:0}body{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}a{color:var(--brand);-webkit-transition:all 0.5s ease-out;-moz-transition:all 0.5s ease-out;-o-transition:all 0.5s ease-out;transition:all 0.5s ease-out}a:not(.button):hover,a:not(.button):focus,a:not(.button):active{border:0;color:var(--text);text-decoration:none}.left{float:left}.right{float:right}.clearfix:before,.clearfix:after{content:' ';display:table}.clearfix:after{clear:both}pre,pre code{background-color:transparent;border-radius:0}pre,code{font-family:"Source Code Pro",Consolas,monospace}code{color:#7a7a7a}pre{padding:1.125em;line-height:1.11;overflow-x:scroll;margin-bottom:0.88em;background-color:#fafafa}.highlight .p{font-size:1.125rem;line-height:1}pre{counter-reset:line-numbering;white-space:pre;overflow-x:auto;word-break:inherit;word-wrap:inherit}pre a::before{content:counter(line-numbering);counter-increment:line-numbering;padding-right:1em;width:25px;text-align:right;opacity:0.7;display:inline-block;color:#ccc;margin-right:16px;font-size:13px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}pre a:first-of-type::before{padding-top:10px}pre a:last-of-type::before{padding-bottom:10px}pre a:only-of-type::before{padding:10px}input,select,textarea,fieldset{font-size:1rem;margin-top:0;margin-bottom:.5rem,0.5rem}input[type=text],input[type=datetime],input[type=datetime-local],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=time],input[type=url],input[type=week]{box-sizing:border-box;height:2.25rem;padding:.5rem .5rem;vertical-align:middle;-webkit-appearance:none}select{box-sizing:border-box;line-height:1.75;padding:.5rem .5rem}select:not([multiple]){height:2.25rem;vertical-align:middle}textarea{box-sizing:border-box;line-height:1.75;padding:.5rem .5rem}.form-stacked input:not(.button),.form-stacked textarea,.form-stacked select{width:100%}.field-light{background-color:var(--bg-secondary);color:var(--hint);transition:box-shadow .2s ease;border-style:solid;border-width:1px;border-color:#ccc;border-radius:3px}.field-light:focus{outline:none;border-color:#0076df;box-shadow:0 0 2px rgba(0,118,223,0.5)}.field-light:disabled{color:#777;background-color:var(--bg-secondary)}.field-light:read-only:not(select){background-color:var(--bg-secondary)}.field-light:invalid{border-color:#f95020}.field-light.is-success{border-color:#00cf26}.field-light.is-warning{border-color:#efcc00}.field-light.is-error{border-color:#f95020}.radio-light,.checkbox-light{transition:box-shadow .2s ease}.radio-light{border-radius:50%}.radio-light:focus,.checkbox-light:focus{outline:none;box-shadow:0 0 2px rgba(0,118,223,0.5)}html{font-size:20px}abbr{border-bottom:1px black dotted;cursor:help}p{color:#444;line-height:1.65}small,.small{font-size:0.95rem}.site-header{padding-top:2rem;padding-bottom:2rem;margin-bottom:0;z-index:100}.site-header a{color:var(--headings);font-size:1rem;font-weight:400}.site-header .site-title{font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif;font-size:1rem;color:var(--headings);font-weight:500}.site-header .site-title img{max-height:20px;border-radius:0}.site-nav{margin-top:1rem;margin-left:0}.site-header nav a{color:var(--headings)}.site-header nav a:hover,.site-header nav a:focus,.site-header nav a:active{color:white;background:var(--brand)}.site-nav a+a{margin-left:1em}.site-header a:hover,.posts .post a:hover .post-meta,.posts .post a:hover .post-title,.posts .post a:hover .post-summary{opacity:0.88}.site-header{text-align:center}.site-header .site-nav{text-align:center}table{width:100%;max-width:100%;margin-bottom:1.5;font-size:1.125rem}table>thead>tr>th,table>thead>tr>td,table>tbody>tr>th,table>tbody>tr>td,table>tfoot>tr>th,table>tfoot>tr>td{padding:12px;line-height:1.2;vertical-align:top;border-top:1px solid var(--hint)}table>thead>tr>th{vertical-align:bottom;border-bottom:1px solid var(--hint)}table>caption+thead>tr:first-child>th,table>caption+thead>tr:first-child>td,table>colgroup+thead>tr:first-child>th,table>colgroup+thead>tr:first-child>td,table>thead:first-child>tr:first-child>th,table>thead:first-child>tr:first-child>td{border-top:0}table>tbody+tbody{border-top:1px solid var(--hint)}table{width:100%;max-width:100%;margin-bottom:1.5;font-size:1.125rem}table>thead>tr>th,table>thead>tr>td,table>tbody>tr>th,table>tbody>tr>td,table>tfoot>tr>th,table>tfoot>tr>td{padding:12px;line-height:1.2;vertical-align:top;border-top:1px solid var(--hint)}table>thead>tr>th{vertical-align:bottom;border-bottom:1px solid var(--hint)}table>caption+thead>tr:first-child>th,table>caption+thead>tr:first-child>td,table>colgroup+thead>tr:first-child>th,table>colgroup+thead>tr:first-child>td,table>thead:first-child>tr:first-child>th,table>thead:first-child>tr:first-child>td{border-top:0}table>tbody+tbody{border-top:1px solid var(--hint)}.site{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;min-height:100vh}.site-wrap{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}footer{background-color:var(--bg-secondary);border-top:var(--hint);color:var(--hint);font-size:.75rem;font-weight:400;padding:2rem;text-align:center}.social-icons-left,.social-icons-right{text-align:center;float:none}.social-icons{font-size:1.25rem;padding:0.5em 0 0 0;width:100%}.social-icons a.fa{cursor:pointer;opacity:0.8;padding:0.2em}.social-icons a.fa:hover{opacity:1}.social-icons iframe[title=Flattr]{position:relative;top:0.1em}blockquote{font-style:italic;text-align:left;margin-left:.5rem;padding:.5rem}blockquote footer{background-color:#fff;border-color:transparent;color:#7a7a7a;font-size:.85rem;font-style:normal;text-align:left;padding:0}blockquote.highlighted{background-color:#163d6f;margin-top:2em;margin-bottom:2em;padding:2rem 0}blockquote.highlighted .label,blockquote.highlighted p{font-style:normal;color:white}.posts{margin:0}.posts .post{margin-bottom:0.75em;border-bottom:thin solid #f3f3f3}.posts .post:last-child{border-bottom:none;margin-bottom:.375em}.post-link .post-title{margin-top:0;font-weight:500;color:var(--headings);margin-bottom:.5rem}.post-footer{margin-top:.75rem;text-align:center}.post-footer .avatar{margin:2rem 0;width:100px;border-radius:50%}.meta,.post-meta{width:auto;font-weight:400;margin:0;padding:.25em 0;color:var(--hint);font-style:italic}.related-post-title{border-bottom:thin solid #f3f3f3}.list{display:flex;flex-flow:row wrap;-webkit-justify-content:space-between;justify-content:space-between;margin:0}.list .post-entry{display:flex}.list .wrap{position:relative;line-height:0;overflow:hidden;-webkit-transition:0.8s cubic-bezier(0.2, 1, 0.2, 1);-o-transition:0.8s cubic-bezier(0.2, 1, 0.2, 1);transition:0.8s cubic-bezier(0.2, 1, 0.2, 1)}.list .wrap:hover{-webkit-box-shadow:0 5px 10px 0 rgba(0,0,0,0.15);box-shadow:0 5px 10px 0 rgba(0,0,0,0.15)}.trip .post-header{max-width:650px;margin:0 auto;line-height:1.4}.trip .post-header h1{text-align:center}.highlight .trip .py3{width:100%}.list .thumb{-moz-transition:all 2.3s;-webkit-transition:all 2.3s;transition:all 2.3s}.list .thumb:hover{-moz-transform:scale(1.15);-webkit-transform:scale(1.15);transform:scale(1.15)}.list .img{width:100%;padding-bottom:66.77%;margin-top:-1em;background-position:50% 50%;background-repeat:no-repeat;background-size:cover}@media screen and (min-width: 48em){.list .img{height:600px;padding-bottom:0;background-attachment:fixed}}.trip blockquote{margin:0 auto}.list .summary{width:33.33%;text-align:left;padding-right:1em}.list .thumbnail{width:66.67%}.list .summary p{color:var(--text);margin-bottom:0.5em}.list .summary .title{font-weight:500;color:var(--headings);margin-top:0;margin-bottom:0.25rem}.list p.meta{color:#EFEFEF}.post-entry{padding-bottom:0}.post-entry:last-child{padding-bottom:1.5rem}html.projects .posts{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between}figcaption,figcaption p{margin:0 auto;margin-bottom:2em;padding:0.1em 0 0.5em 0;text-align:left;font-size:0.8em;border-bottom:2px solid var(--bg-secondary)}figure{text-align:center;margin:auto}figure:not(.no-bg-color) img{background-color:white}.trip-content{position:relative;overflow:hidden;margin:0 auto;display:flex;flex-wrap:wrap}.trip-content span{max-width:650px}.trip-content h4{width:100%;font-size:1.8em;margin-bottom:1em}.trip-content h2,.trip-content h3,.trip-content h4{text-align:center}.trip-content p{max-width:650px;margin:1em auto}.trip-content video{display:block;max-width:100%;margin:2em auto}.trip-content .img-small{width:43.5%}.trip .social-btns{max-width:1000px;margin:0 auto;padding:1em 0}.trip .share-btn,.trip #like-btn,.trip #like-btn.in{margin-left:1em}.trip .share-btn:first-child{margin-left:0}.set{display:flex;flex-wrap:wrap}.set .set-item:first-child{margin-left:0 !important}.set .set-item:last-child{margin-right:0 !important}#shots{display:flex;flex-wrap:wrap;max-width:650px;margin:auto}#shots .shot{display:block;width:100%;margin:1rem 0;text-decoration:none}@media screen and (max-width: 48em){.trip .py3{width:100%}.list .summary{width:50%}.list .thumbnail{width:50%}}@media screen and (max-width: 32em){.list .img{padding-bottom:50.77%;background-size:150%}.trip-content .img-small{width:100%}.trip-content figure,.trip-content .video-container{width:100% !important}.list .post-entry{flex-direction:column}.list .summary,.list .thumbnail{width:100%}.list .summary{margin:.875rem 0 1rem 0}}@media screen and (min-width: 32em){html{font-size:16px;overflow-x:hidden}h1,.h1{font-size:2rem}.site-header{text-align:left}.site-header a{font-size:1rem}.site-header .site-title{font-size:1rem;float:left}.site-header .site-nav{float:left;margin-top:0;margin-left:3rem}.social-icons-left{text-align:left}.social-icons-right{text-align:right}}@media screen and (min-width: 48em){html{font-size:18px}}@media screen and (min-width: 64em){html{font-size:18px}}@media screen and (min-width: 78em){em img{max-width:1169px;margin-left:-7em}}.gist,.gist .highlight .p{font-size:.75rem}.gist .lines{width:100%}.measure{margin:0 auto;max-width:1155px}.pagination{font-size:1rem;font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif;font-weight:400;text-align:center}.pagination a,.pagination .disabled{-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;background:#fafafa;border-radius:0.1875em;border:1px solid #f3f3f3;color:var(--text);padding:1em 1.5em}.pagination .disabled{opacity:0.5}.pagination a:hover,.pagination a:focus{background:white;color:#477dca}.pagination a:active{background:#f7f7f7}.pagination .button{font-size:1rem;font-weight:400;letter-spacing:1px}.button-disabled{opacity:0.55;background-color:var(--hint)}.button-disabled:hover,.button-disabled:active,.button-disabled:focus{cursor:not-allowed;background-color:var(--hint)}.site-title{padding-top:4px}.site-header{box-sizing:border-box}.site-header nav a{padding:0.3em 0.6em 0.3em 0.6em;border-radius:none;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-webkit-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out}.site-header nav a:hover,.site-header nav a.current{background-color:var(--brand);color:white}.posts a.post-link{padding:0.1em 0.4em 0.1em 0.4em;font-weight:500;color:var(--brand);font-size:.875rem}.posts a.post-link:hover{color:white;background-color:var(--brand)}.post-header{text-align:center;margin-bottom:2em}.post-header.project{display:flex;text-align:left}.project-summary{max-width:50%}.project-meta{padding-top:2em;max-width:50%}.project-summary{padding-right:5%}.project-meta span{display:inline-block;background:var(--bg-secondary);padding:0.2em 0.6em;margin:0.1em 0 0.2em 0;border-radius:20px;color:var(--hint)}.posts .post-entry .summary span:not(:last-of-type)::after{content:" · "}.meta,.post-meta{font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif;font-size:1rem;font-style:normal}p,.p,.f4,dl,ol,ul{font-size:1rem;line-height:1.65}.home .measure>h1,.home .measure h2{color:var(--headings);font-family:"Poppins","Helvetica Neue",Helvetica,"Arial",sans-serif}.home .measure>p{max-width:650px}.p2{padding:1rem 2rem}.footer,.site-wrap:after{height:60px}.site-wrap{min-height:100%}.text-width{max-width:650px}section{padding:2em 0 2.5em 0}footer{padding:1rem 0 1.5rem 0}.footer p2{padding:1rem 2rem}table{border-collapse:collapse;padding:0;width:100%}table th{text-align:left;border-top:2px solid var(--bg-secondary);vertical-align:bottom;padding:0 1em 1em 1em}table td{border-top:2px solid var(--bg-secondary);vertical-align:top;padding:1em;text-align:left}table>tbody>th:nth-child(1),table>tbody>tr td:nth-child(1){text-align:left;padding-left:0}ul{line-height:1.65;max-width:650px;margin:1em auto}p,.p{font-weight:400;line-height:1.65;color:var(--text)}h1,h2,h3,h4,h5,h6{color:var(--headings)}.avatar{display:block;margin:1.5em auto;width:110px;height:110px}.avatar img{border:1px solid var(--bg);border-radius:400px}.intro-text{display:block;max-width:650px}.post-content p,.post-content table{max-width:650px;margin:1.6em auto}.post-content h2{text-align:left}.post-content h3{margin-top:2rem}.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{max-width:650px;margin-left:auto;margin-right:auto}.post-content hr{max-width:650px}hr{border:none;text-align:center;height:20px;width:100%}hr:before{content:'...';display:inline-block;color:var(--brand);position:relative;top:-30px;font-size:2em;letter-spacing:.6em;left:10px}.home hr{width:100px;margin:3em 0}.home hr:before{content:none}.horizontal-bar{display:block;height:4px;width:70px;background:var(--brand)}.key-category{display:inline-block}.home .posts .post{border-bottom:0}.home .posts .post:not(:first-child){padding-top:1rem}.home .posts .post:not(:last-child){padding-bottom:0}.my-video{height:0;padding-top:25px;padding-bottom:67.5%;margin-bottom:10px;position:relative;overflow:hidden}.my-video.wide-screen{padding-bottom:56.34%}.my-video.vimeo{padding-top:0}.my-video embed,.my-video iframe,.my-video object,.my-video video{top:0;left:0;width:100%;height:100%;position:absolute}.blog .posts{max-width:650px}.post-link .post-title{color:var(--text)}.posts .post{margin-bottom:0}.post a:not(.button):not(.post-link){color:#444;font-weight:500;color:#3a8bbb}.post a:not(.button):not(.post-link):hover{color:white;background-color:#3a8bbb}.post a.no-underline{background-image:none !important}.button:focus{outline:0}#summary{max-width:650px;margin:0 auto}.button{display:block;margin-bottom:1rem;padding:0.6rem 1rem 0.8em;font-size:0.9rem;background:var(--headings);color:var(--bg);border-radius:2px;-webkit-transition:0.8s cubic-bezier(0.2, 1, 0.2, 1);-o-transition:0.8s cubic-bezier(0.2, 1, 0.2, 1);transition:0.8s cubic-bezier(0.2, 1, 0.2, 1);cursor:pointer}.button:hover{background:var(--brand)}.more-posts{max-width:1155px;margin:4em auto 1em auto;padding:1em 0 1em 0;border-top:1px dashed var(--hint)}.more-posts h3{margin-bottom:1.5rem}.more-posts .post{width:48%;margin-left:0}.more-posts .post h4{margin:1em 0 0 0}.more-posts .post p{margin:0.2em 0 1.5em 0;font-size:0.9em;line-height:1.3rem}.more-posts .post:first-of-type .post-title:after{content:"★";color:#FF4848;margin-left:5px}small{margin:0 0.2rem}.full-width{width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw}@media screen and (max-width: 48em){canvas{width:100%}.post-header.project{flex-direction:column}.project-summary,.project-meta{max-width:100%;padding-top:0}}@media screen and (max-width: 32em){html{font-size:16px}h1,.h1{font-size:1.4rem;line-height:1.6}h2,.h2{font-size:1.2rem}h3,.h3{font-size:1.1rem}.site-header{margin-bottom:0;padding-bottom:0}.site-header a{font-size:1rem}table,tbody{display:block;width:100%}thead{display:none}table>tbody>tr,table th,table>tbody>tr>td{display:block;text-align:left}table tr{border-bottom:1px solid #eee;margin-bottom:1em}table th[data-title]:before,table td[data-title]:before{content:attr(data-title) ": ";font-weight:500}table>tbody>tr>td{border:none;empty-cells:hide;padding:0.5em 0}table>tbody>tr>td:empty{display:none}table>tbody>tr>td:first-child{font-weight:500;font-size:1.1em}table td:first-child:before{content:''}.more-posts .post{width:100%;margin-bottom:0}.more-posts .btn-back{margin:auto}.button{margin-left:auto;margin-right:auto}}footer a{color:#7a7a7a}:root{--switch-width: 64px;--switch-height: 32px;--switch-padding: 3px;--switch-animation-duration: 0.2s}.switch{display:flex;flex-shrink:0;align-items:center;position:relative;width:var(--switch-width);height:var(--switch-height);border-radius:50em;float:right}.switch__input,.switch__label{position:absolute;left:0;top:0}.switch__input{margin:0;padding:0;opacity:0;height:0;width:0;pointer-events:none}.switch__input:checked+.switch__label{background-color:var(--brand)}.switch__input:checked+.switch__label+.switch__marker{left:calc(100% - var(--switch-height) + var(--switch-padding))}.switch__input:focus+.switch__label,.switch__input:active+.switch__label{box-shadow:0 0 0 3px rgba(242,73,12,0.2)}.switch__label{width:100%;height:100%;color:transparent;user-select:none;background-color:var(--bg-secondary);border-radius:inherit;z-index:1;transition:background var(--switch-animation-duration)}.switch__marker{position:relative;background-color:var(--bg);width:calc(var(--switch-height) - var(--switch-padding) * 2);height:calc(var(--switch-height) - var(--switch-padding) * 2);border-radius:50%;z-index:2;pointer-events:none;box-shadow:0 1px 1px rgba(0,0,0,0.25);left:var(--switch-padding);transition:left var(--switch-animation-duration);will-change:left;line-height:27px;text-align:center;vertical-align:middle}@media screen and (max-width: 32em){html:not(.home) .switch{float:none;margin:1.5em auto}}html{scroll-behavior:smooth}.section-nav-container{max-width:650px;margin-left:2rem}.section-nav-container .section-nav-title{color:var(--hint)}@media screen and (min-width: 48em){.section-nav-container{display:block;position:sticky;top:2rem;align-self:start}}.post .section-nav{padding-left:0}.post .section-nav li.toc-entry{list-style:none}.post .section-nav li.toc-entry.active>a{color:var(--headings);font-weight:500;border-left:1px solid var(--headings)}.post .section-nav li.toc-entry>a{text-decoration:none;display:block;padding:.5rem 0;padding-left:1rem;color:var(--hint);font-size:0.85rem;font-weight:normal;border-left:1px solid var(--bg-secondary);transition:all 50ms ease-in-out}main{display:flex;flex-direction:column-reverse}@media screen and (min-width: 48em){main{display:grid;grid-template-columns:1fr 15em}}
+
+    </style>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins:400,400i,500' rel='stylesheet' type='text/css'>
+    
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+    <!-- Verifications -->
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Designing for trust between autonomous cars and human">
+    <meta property="og:description" content="&lt;p&gt;Drivers in human-driven car and pedestrians communicate with each other via eye contact and hand gesture, which do not exist in autonomous cars. With autonomous cars being tested in many cities around the world, the lack of interpersonal communication poses a challenge in having clear communication between autonomous cars and pedestrian.&lt;/p&gt; &lt;p&gt;This project aims to design a communication solution and answer the question of how people understand and trust this solution in their interaction with driverless cars, especially in the situation not regulated by a traffic light.&lt;/p&gt;">
+    <meta property="og:url" content="https://ryanntt.com/projects/light-wave">
+    <meta property="og:site_name" content="Ryan Nguyen">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+        <meta name="twitter:site" content="@ryannguyentt" />
+    
+    <meta name="twitter:title" content="Designing for trust between autonomous cars and human" />
+    <meta name="twitter:description" content="<p>Drivers in human-driven car and pedestrians communicate with each other via eye contact and hand gesture, which do not exist in autonomous cars. With autonomous cars being tested in many cities around the world, the lack of interpersonal communication poses a challenge in having clear communication between autonomous cars and pedestrian.</p> <p>This project aims to design a communication solution and answer the question of how people understand and trust this solution in their interaction with driverless cars, especially in the situation not regulated by a traffic light.</p>" />
+    <meta name="twitter:url" content="https://ryanntt.com/projects/light-wave" />
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+
+    
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NMCCW9"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NMCCW9');
+    </script>
+    <!-- End Google Tag Manager -->
+    
+
+    <!-- Chatbot Script -->
+    
+    <!-- End Chatbot Script -->
+
+    <!-- Custom Script -->
+    
+        <script src="/js/section-nav.js"></script>
+    
+    <!-- End Custom Script -->
+</head>
+
+
+<body class="site">
+  <div class="site-wrap"></div>
+    
+        <header class="site-header px2 px-responsive">
+  <div class="mt1 wrap">
+    <div class="measure">
+      <a href="https://ryanntt.com" class="site-title">
+        <img src="../images/logo.png"></img>
+      </a>
+      <nav class="site-nav">
+        
+<a href="/projects/" class='current'>Case Studies</a>
+<a href="/blog/" >Writings</a>
+
+      </nav>
+      <!-- <button id="theme-toggle" onclick="modeSwitcher()" class="theme-toggle-button"></button> -->
+      <div class="switch theme-toggle-button">
+        <input class="switch__input" type="checkbox" id="theme-toggle" onclick="modeSwitcher()">
+        <label class="switch__label" for="theme-toggle">Dark Mode</label>
+        <div aria-hidden="true" class="switch__marker" id="theme-label"></div>
+      </div>
+      <div class="clearfix"></div>
+      
+    </div>
+  </div>
+</header>
+
+    
+    <div class="post px2 py2 wrap" role="main" id="2018-11-27">
+      <div class="measure">
+        
+
+
+
+
+  <div class="post-header mb2 project">
+
+
+  
+    <div class="project-summary">
+      <h1>Designing for trust between autonomous cars and human</h1>
+      <p><p>Drivers in human-driven car and pedestrians communicate with each other via eye contact and hand gesture, which do not exist in autonomous cars. With autonomous cars being tested in many cities around the world, the lack of interpersonal communication poses a challenge in having clear communication between autonomous cars and pedestrian.</p> <p>This project aims to design a communication solution and answer the question of how people understand and trust this solution in their interaction with driverless cars, especially in the situation not regulated by a traffic light.</p></p>
+    </div>
+    <div class="project-meta">
+      <h4>Role</h4>
+      <p><span>Design research</span>  <span>Interaction design</span> <span>Interface design</span></p>
+      <h4>Year</h4>
+      <p>June - December 2018</p>
+    </div>
+  
+
+  
+</div>
+
+
+
+<div class="spacer-block-2"></div>
+
+<figure class="project-hero full-width" style="background: #888888; ">
+    <img src= https://res.cloudinary.com/ryanntt/image/upload/s--Xs4yp45V--/c_fill,h_1082,w_1536/v1548480050/light-wave/light-wave-thumbnail.png >
+</figure>
+
+<div class="spacer-block-2"></div>
+
+
+<main>
+  <article class="post-content">
+    <h2 id="autonomous-cars-and-human">Autonomous cars and human?</h2>
+
+<p>Drivers in human-driven car and pedestrians communicate with each other via eye contact and hand gesture, which do not exist in autonomous cars. With autonomous cars being tested in many cities around the world, the lack of interpersonal communication poses a challenge in having clear communication between autonomous cars and pedestrian.</p>
+
+<h2 id="project-aims">Project aims</h2>
+
+<p>This project aims to design a communication solution and answer the question of how people understand and trust this solution in their interaction with driverless cars, especially in the situation not regulated by a traffic light. The existing frameworks have identified intent and awareness as key factors to be considered for trusted communication between driverless cars and pedestrian. This study observed and analysed 16 participants in different scenarios at a pedestrian crossing having no traffic light.</p>
+
+<h2 id="literature-review">Literature Review</h2>
+
+<p>To form the research questions, I reviewed papers of different domain such as autonomous cars, interaction between cars and pedestrian in urban environment, trust between human and technology, cognition, virtual reality. In the end, I shortlisted and used around 15 papers as references in this project. I found that there was a gap in the way previous researchers prototyped and evaluated design solution for the interaction between pedestrians and autonomous cars.</p>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--qTZwLx3w--/c_scale,q_60,w_1150/v1546686210/light-wave/Literature-Review.png" />
+    <figcaption>I reviewed more than 50 papers to form the research questions.</figcaption>
+</figure>
+
+<h2 id="components-of-trust">Components of Trust</h2>
+
+<p>As we are integrating intent and awareness into the solution, we also want to see the impact of these two factors in creating trust. Intent and awareness contribute to how people understand the system and therefore contribute to the cognition-based trust. As trust has both affect-based and cognition components, we will quantify trust in relation to the value of these two categories.</p>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--1_jxUJ4O--/c_scale,w_650/v1551875316/light-wave/Trust_Model.png" />
+    <figcaption>Trust has affect-based and cognition-based components, which we are going to measure in this study.</figcaption>
+</figure>
+
+<h2 id="researcher-questions">Researcher Questions</h2>
+
+<h4 id="question-1">Question 1</h4>
+
+<p>How can driverless cars communicate their intent and awareness to pedestrians, especially in situations not facilitated by traffic lights?</p>
+
+<h4 id="question-2">Question 2</h4>
+
+<p>How do intent and awareness affect pedestrian trust toward the new communication solution?</p>
+
+<hr />
+
+<h2 id="design-methodology">Design Methodology</h2>
+
+<p>Prototyping in Virtual Reality requires the solution idea to have specifications regarding appearance, animation, which was first assessed and adjusted in 2D prototypes. Each iteration was subjected to evaluation using the heuristics framework formed in a previous research on driverless-car-pedestrian interaction.</p>
+
+<figure>
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--zIrebbhW--/c_scale,h_257,w_1155/v1546162372/light-wave/Iterative_Process.png" />
+    <figcaption>The design process was iterative, from sketching, digital mockups, code-based prototype in Processing to 3D mockup in Unity.</figcaption>
+</figure>
+
+<div class="spacer-block-2"></div>
+
+<figure>
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--XiyRoHZ4--/c_scale,h_881,w_1155/v1551868042/light-wave/Mockup-Board.png" />
+    <figcaption>Design variations and iterations of the light signal.</figcaption>
+</figure>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/v1551870663/light-wave/Processing-Animation.gif" />
+    <figcaption>The animation was programmed in Processing to gain better control of design variables such as framerates, gaps, colour, speed.</figcaption>
+</figure>
+
+<h2 id="experimental-design">Experimental Design</h2>
+
+<p>As our research objective is to study how design elements intent and awareness impact people trust in communication with autonomous cars, we want to test our solution in various scenarios having different intent and levels of awareness. The hardware that controls awareness are car sensors, so we design scenarios to have sensor failure at different points of time to evaluate how pedestrians would react and behaviour, and most importantly whether people can make a safe decision using the communication the car sends.</p>
+
+<div class="spacer-block-1"></div>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--rnHmFOzE--/c_scale,w_1150/v1546689476/light-wave/Experiment-Design.png" />
+    <figcaption><b>Four scenarios</b>: (A) Car sensor works well throughout the scenario (B) Car sensors fails when the pedestrian is crossing (C) Car sensors fails before the car completely stop (D) Car does not see the pedestrian at all.</figcaption>
+</figure>
+
+<h2 id="study-in-virtual-reality">Study in Virtual Reality</h2>
+
+<p>In the process of designing for interaction between pedestrians and driverless cars, prototyping a novel solution with physical materials is difficult due to required cost and time. Virtual Reality(VR) was chosen in this project as the most suitable medium to study people’s perception toward our solution.</p>
+
+<div class="spacer-block-1"></div>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--vuqs4rW8--/c_scale,h_574,w_1300/v1546162365/light-wave/Experiment_Environment.png" />
+    <figcaption>The test setup had enough room for walking inside VR and interview booth that allowed comfort when answering the questions.</figcaption>
+</figure>
+
+<div class="spacer-block-2"></div>
+
+<div class="my-video [vimeo, widescreen]">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/S5N5-TtK4DA" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<!-- <div class="my-video [vimeo, widescreen]">
+    <iframe width="560" height="315" src="https://www.youtube.com//embed/videoseries?list=PL-kCG1y2NE9RBZv9enPFyi_J4P6HqNrsF&loop=1&autoplay=1&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div> -->
+
+<div class="spacer-block-2"></div>
+
+<h2 id="data-collection--analysis">Data Collection &amp; Analysis</h2>
+
+<p>Qualitative methods are mainly used in this research. Quantitative methods are used in conjunction to validate the qualitative result, as well as to assess the relationship between comfort, intent, awareness and trust level. After each scenario, the participant was asked to answer open-ended interview questions and rate the Likert questionnaires.</p>
+
+<p>(1)The observation about participant behaviour was used to ask a question about why they acted in certain ways. This data was stored in video recording to be matched with the recording of VR situation recording.</p>
+
+<p>(2) Quantitative data collected using a Likert questionnaire was analysed in Multiple Regression Analysis to understand the contribution of intent and awareness to trust.</p>
+
+<p>(3) Qualitative data collected in semi-structured interviews was analysed using thematic
+analysis. Based on the literature review of previous studies, we identified two following main themes and used them in deductive content analysis: 1) People’s understanding of the communication model with driverless cars, which include intent and awareness. 2) People’s behaviours around driverless cars, which include cultural preferences, usual behaviours. The sub-themes were derived further from the content.</p>
+
+<div class="spacer-block-1"></div>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--ijSRYuM2--/c_scale,h_619,w_1150/v1546162374/light-wave/Official_Experiment.png" />
+    <figcaption>Different types of data were collected in the study.</figcaption>
+</figure>
+
+<div class="spacer-block-2"></div>
+
+<div class="spacer-block-1"></div>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--o881UbsI--/c_scale,h_301,w_650/v1546773545/light-wave/Demographics.png" />
+    <figcaption>The 18 participants have a wide variety of background knowledge about autonomous car.</figcaption>
+</figure>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--hpMAxiEG--/c_scale,h_350,w_650/v1551873968/light-wave/Multiple_Regression_Analysis_-Trust.png" />
+    <figcaption>Multiple Regression Analysis was used to understand the relationship between Trust and other variables such as Comfort, Intent and Awareness. Good p-values support the strong relationship.</figcaption>
+</figure>
+
+<div class="spacer-block-2"></div>
+
+<h2 id="result">Result</h2>
+
+<p>The result confirmed that the comfort and intention of the cars understood by pedestrian contribute to the overall trust toward communication with driverless vehicles. Participants did not rely significantly on knowing whether the car is aware of their presence to make a decision. The use of Virtual Reality as a testing medium is proven to be effective as participants exhibited emotions and behaviours that they normally have shown in real life situations.</p>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--yylWKt9l--/v1546692777/light-wave/Study_Footage.gif" />
+    <figcaption>Participants exhibited behaviours they normally have in real-life crossing situations.</figcaption>
+</figure>
+
+<h2 id="reflection">Reflection</h2>
+
+<p>Though the project has limitations, I am satisfied with the fact that it was concluded with interesting insights for any future researches on this topic, and also how the project has shaped my thinking about design research.</p>
+
+<p>As a researcher, I learnt how to become a better person by embracing both the up and downtime of doing research. My down moments were many and up moments are few, among which there was a moment in this project that I felt enlightened by new knowledge. It was when I interviewed the first participant from India. He didn’t use the design solution at all, which made me feel uncomfortable at first as I didn’t understand why. But I felt more encouraged when he started sharing why. My design is not yet for everyone. And this new insight hadn’t been highlighted by other researches as well, which also mean it will be valuable in the future. To me, doing research requires the mindset that what I set out to do initially might produce unexpected results, some of which might confirm the failure or limitation of research. But in the journey of creating new values, I should embrace the notion that I might be wrong, and that understanding failure is critical to success.</p>
+
+  </article>
+
+  <nav class="section-nav-container">
+    <h4 class="section-nav-title">In this page</h4>
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#autonomous-cars-and-human">Autonomous cars and human?</a></li>
+<li class="toc-entry toc-h2"><a href="#project-aims">Project aims</a></li>
+<li class="toc-entry toc-h2"><a href="#literature-review">Literature Review</a></li>
+<li class="toc-entry toc-h2"><a href="#components-of-trust">Components of Trust</a></li>
+<li class="toc-entry toc-h2"><a href="#researcher-questions">Researcher Questions</a></li>
+<li class="toc-entry toc-h2"><a href="#design-methodology">Design Methodology</a></li>
+<li class="toc-entry toc-h2"><a href="#experimental-design">Experimental Design</a></li>
+<li class="toc-entry toc-h2"><a href="#study-in-virtual-reality">Study in Virtual Reality</a></li>
+<li class="toc-entry toc-h2"><a href="#data-collection--analysis">Data Collection &amp; Analysis</a></li>
+<li class="toc-entry toc-h2"><a href="#result">Result</a></li>
+<li class="toc-entry toc-h2"><a href="#reflection">Reflection</a></li>
+</ul>
+  </nav>
+</main>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="more-posts">
+    <h3 class="title">You may also enjoy</h3>  
+    <div class="list">
+      
+        
+                 
+        
+        
+      
+        
+          
+            
+                
+              <div class="post ml2">
+                
+                <a href="/projects/wego" class="post-link">
+                  <div class="wrap">
+                    <img class="thumb" src="https://res.cloudinary.com/ryanntt/image/upload/s--xUqD2al3--/c_fill,h_1082,w_1536/v1508772728/wego/desktop-web.png" ref="making travel marketplace trustworthy" alt="Making travel marketplace trustworthy">  
+                  </div>
+                </a>
+                
+                <a href="/projects/wego" class="post-link">
+                  <h4 class="post-title">Making travel marketplace trustworthy</h4>
+                  <p class="post-meta">
+                    
+                      <span>Design research</span> <span>Interaction design</span> <span>Interface design</span>
+                      
+                  </p>              
+                </a>
+              </div>
+            
+                 
+        
+        
+      
+        
+          
+            
+                 
+        
+        
+      
+        
+          
+            
+                 
+        
+        
+      
+        
+          
+            
+                
+              <div class="post ml2">
+                
+                <a href="/projects/floathink" class="post-link">
+                  <div class="wrap">
+                    <img class="thumb" src="https://res.cloudinary.com/ryanntt/image/upload/s--MtFPEfjA--/c_fill,h_1200,w_1700/v1548519844/floathink/floathink-thumbnail.png" ref="making places playful" alt="Making places playful">  
+                  </div>
+                </a>
+                
+                <a href="/projects/floathink" class="post-link">
+                  <h4 class="post-title">Making places playful</h4>
+                  <p class="post-meta">
+                    
+                      <span>Design research</span>  <span>Interaction design</span> <span>Physical prototyping</span> <span>Place-making</span>
+                      
+                  </p>              
+                </a>
+              </div>
+            
+                 
+        
+        
+          
+    </div>
+
+    
+    <form action="/projects" class="btn-back">
+      
+      <input type="submit" class="button button-big mobile-block" value="View All Case Studies" />
+        
+    </form>
+    
+  </section>
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="avatar">
+    <img src="../images/me.png"/>
+  </div>
+  <div class="measure">
+    <small>
+      <a target="_blank" class="no-underline" href="https://ryanntt.com/feed.xml">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-rss fa-stack-1x"></i>
+        </span>
+      </a>
+      <a target="_blank" class="no-underline" href="https://linkedin.com/in/ryanntt">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-linkedin fa-stack-1x"></i>
+        </span>
+      </a>
+      <a target="_blank" class="no-underline" href="https://twitter.com/ryannguyentt">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-twitter fa-stack-1x"></i>
+        </span>
+      </a>
+      <a target="_blank" class="no-underline" href="https://dribbble.com/ryanntt">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-dribbble fa-stack-1x"></i>
+        </span>
+      </a>
+      <a target="_blank" class="no-underline" href="https://medium.com/@ryanntt">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-medium fa-stack-1x"></i>
+        </span>
+      </a>
+    </small>
+    <small style="display:block; margin: 0.2rem 0">
+      <a href="mailto:hello@ryanntt.com">hello@ryanntt.com</a>
+    </small>
+    <small style="display:block; margin: 0.2rem 0">
+      © 2020 Ryan Nguyen
+    </small>
+  </div>
+
+  <script src="/js/fontfaceobserver.js"></script>
+
+  <script>
+    var read = false;
+
+    (function( w ){
+        // if the class is already set, we're good.
+        if( w.document.documentElement.className.indexOf( "fonts-loaded" ) > -1 ){
+            return;
+        }
+        var fontA = new w.FontFaceObserver( "Merriweather", {
+            weight: 300
+        });
+        var fontB = new w.FontFaceObserver( "Lato", {
+            weight: 900
+        });
+        w.Promise
+            .all([fontA.check(), fontB.check()])
+            .then(function(){
+                w.document.documentElement.className += " fonts-loaded";
+                console.log('All fonts are loaded');
+            }, function () {
+                console.log('Web font could not be loaded in time. Falling back to system fonts.');
+            });
+    }( this ));
+  </script>
+
+  <script>
+    // This checks whether system dark mode is set
+    let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
+    // This checks for session storage telling to override the system preferences
+    let theme = sessionStorage.getItem('theme');
+  
+    if (systemInitiatedDark.matches) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      document.getElementById("theme-toggle").checked = true;
+      document.getElementById("theme-label").innerHTML = "🌙";
+      console.log("Hello Dark");
+    } else {
+      document.documentElement.setAttribute('data-theme', 'light');
+      document.getElementById("theme-toggle").checked = false;
+      document.getElementById("theme-label").innerHTML = "☀️";
+      console.log("Hello Light");
+    }
+
+    function prefersColorTest (systemInitiatedDark) {
+      if (systemInitiatedDark.matches) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        document.getElementById("theme-toggle").checked = true;
+        document.getElementById("theme-label").innerHTML = "🌙";
+        // This clears the session storage
+        sessionStorage.setItem('theme', '');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        document.getElementById("theme-toggle").checked = false;
+        document.getElementById("theme-label").innerHTML = "☀️";
+        sessionStorage.setItem('theme', '');
+      }
+    }
+    systemInitiatedDark.addListener(prefersColorTest);
+
+    function modeSwitcher() {
+    // It's important to check for overrides again
+      let theme = sessionStorage.getItem('theme');
+      
+      // Checks if reader selected dark mode
+      if (theme === "dark") {
+        document.documentElement.setAttribute("data-theme", "light");
+        sessionStorage.setItem('theme', 'light');
+        document.getElementById("theme-toggle").checked = false;
+        document.getElementById("theme-label").innerHTML = "☀️";
+        // Checks if reader selected dark mode
+      } else if ( theme === "light") {
+        document.documentElement.setAttribute("data-theme", "dark");
+        sessionStorage.setItem('theme', 'dark');
+        document.getElementById("theme-toggle").checked = true;
+        document.getElementById("theme-label").innerHTML = "🌙";
+      } else if (systemInitiatedDark.matches) {
+        document.documentElement.setAttribute("data-theme", "light");
+        sessionStorage.setItem('theme', 'light');
+        document.getElementById("theme-toggle").checked = false;
+        document.getElementById("theme-label").innerHTML = "☀️";
+      } else {
+        document.documentElement.setAttribute("data-theme", "dark");
+        sessionStorage.setItem('theme', 'dark');
+        document.getElementById("theme-toggle").checked = true;
+        document.getElementById("theme-label").innerHTML = "🌙";
+      }
+    }
+
+    if (theme === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+      sessionStorage.setItem("theme", "dark");
+      document.getElementById("theme-toggle").checked = true;
+      document.getElementById("theme-label").innerHTML = "🌙";
+    } else if (theme === "light") {
+      document.documentElement.setAttribute('data-theme', 'light');
+      sessionStorage.setItem('theme', 'light');
+      document.getElementById("theme-toggle").checked = false;
+      document.getElementById("theme-label").innerHTML = "☀️";
+    }
+  </script>
+</footer>
+
+</body>
+</html>
