@@ -4,13 +4,13 @@
 	<!-- Site/Blog Indexes -->
 	<url>
 		<loc>https://ryanntt.com</loc>
-		<lastmod>2020-10-03T09:57:51+00:00</lastmod>
+		<lastmod>2020-10-03T13:31:18+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://ryanntt.com/blog/</loc>
-		<lastmod>2020-10-03T09:57:51+00:00</lastmod>
+		<lastmod>2020-10-03T13:31:18+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
@@ -77,20 +77,8 @@
 		<priority>0.9</priority>
 	</url>
 	<url>
-		<loc>https://ryanntt.com/projects/scindo-mobile-game-design</loc>
-		<lastmod>2015-12-02</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.9</priority>
-	</url>
-	<url>
 		<loc>https://ryanntt.com/blog/tools-and-the-illusion-of-better-design</loc>
 		<lastmod>2015-11-10</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.9</priority>
-	</url>
-	<url>
-		<loc>https://ryanntt.com/projects/experiments</loc>
-		<lastmod>2015-11-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.9</priority>
 	</url>
@@ -103,12 +91,6 @@
 	<url>
 		<loc>https://ryanntt.com/blog/design-clients-then-their-products</loc>
 		<lastmod>2015-07-03</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.9</priority>
-	</url>
-	<url>
-		<loc>https://ryanntt.com/projects/panelplace-homepage-redesign</loc>
-		<lastmod>2014-10-30</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.9</priority>
 	</url>
