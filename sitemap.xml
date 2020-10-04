@@ -4,13 +4,13 @@
 	<!-- Site/Blog Indexes -->
 	<url>
 		<loc>https://ryanntt.com</loc>
-		<lastmod>2020-10-03T13:31:18+00:00</lastmod>
+		<lastmod>2020-10-04T02:32:16+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://ryanntt.com/blog/</loc>
-		<lastmod>2020-10-03T13:31:18+00:00</lastmod>
+		<lastmod>2020-10-04T02:32:16+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
