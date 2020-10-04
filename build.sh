@@ -21,7 +21,7 @@ function get_current_site {
 
 function build_site { 
 	echo "building site"
-	bundle exec jekyll build --trace
+	JEKYLL_ENV=production bundle exec jekyll build --trace
 }
 
 function deploy {
