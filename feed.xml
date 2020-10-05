@@ -8,12 +8,7 @@
     
       <item>
         <title>Start with Objectives, not Problems</title>
-        <description>&lt;p&gt;This is &lt;strong&gt;2nd article&lt;/strong&gt; of series &lt;strong&gt;Backward Thinking in Problem Solving&lt;/strong&gt; (&lt;a href=&quot;https://medium.com/design-notebook/backward-thinking-in-problem-solving-part-1-introduction-75ee71829abb&quot;&gt;Backward Thinking in Problem Solving — Part 1: Introduction&lt;/a&gt;). We are usually given problems to solve, which might make understanding problem further appealing as the immediate step. However, what we want to start any project with should be objectives.&lt;/p&gt;
-
-&lt;figure class=&quot;text-width&quot;&gt;
-    &lt;img src=&quot;https://cdn-images-1.medium.com/max/11674/1*-QvTTBvQrpZ6o3G4L-PWSQ.jpeg&quot; /&gt;
-    &lt;figcaption&gt;Start with Objectives, not Problems (Photo by &lt;a href=&quot;https://unsplash.com/photos/aOYA7D3fse8&quot; target=&quot;_blank&quot;&gt;rawpixel&lt;/a&gt;)&lt;/figcaption&gt;
-&lt;/figure&gt;
+        <description>&lt;p&gt;This is &lt;strong&gt;2nd article&lt;/strong&gt; of series &lt;strong&gt;Backward Thinking in Problem Solving&lt;/strong&gt; (&lt;a href=&quot;/blog/backward-thinking-in-problem-solving-part1&quot;&gt;Backward Thinking in Problem Solving — Part 1: Introduction&lt;/a&gt;). We are usually given problems to solve, which might make understanding problem further appealing as the immediate step. However, what we want to start any project with should be objectives.&lt;/p&gt;
 
 &lt;p&gt;The first step of any project is planning, which include setting objectives. Not only when we work backwards but also in any problem-solving framework, objectives are critical to the success of project as good objectives describe what success look like and will be used as north star through out the process.&lt;/p&gt;
 
@@ -134,9 +129,12 @@
 
 &lt;p&gt;&lt;strong&gt;Working backwards is the way of advancing backwards from the goal state (Polya, 1957 in Ginat, 2005).&lt;/strong&gt;&lt;/p&gt;
 
-&lt;figure&gt;
-    &lt;img src=&quot;https://res.cloudinary.com/ryanntt/image/upload/s--mUY6P4mw--/v1530803654/blog/backward-thinking/forward_backward_thinking.jpg&quot; /&gt;
-    &lt;figcaption&gt;The goal state can be defined by you, and presence sometimes is not fully known as you thought.&lt;/figcaption&gt;
+&lt;figure class=&quot;text-width&quot;&gt;
+&lt;img src=&quot;https://res.cloudinary.com/ryanntt/image/fetch/c_limit,f_auto,q_auto,w_1200/https://res.cloudinary.com/ryanntt/image/upload/s--mUY6P4mw--/v1530803654/blog/backward-thinking/forward_backward_thinking.jpg&quot; srcset=&quot;https://res.cloudinary.com/ryanntt/image/fetch/c_limit,f_auto,q_auto,w_320/https://res.cloudinary.com/ryanntt/image/upload/s--mUY6P4mw--/v1530803654/blog/backward-thinking/forward_backward_thinking.jpg 320w,
+https://res.cloudinary.com/ryanntt/image/fetch/c_limit,f_auto,q_auto,w_485/https://res.cloudinary.com/ryanntt/image/upload/s--mUY6P4mw--/v1530803654/blog/backward-thinking/forward_backward_thinking.jpg 485w,
+https://res.cloudinary.com/ryanntt/image/fetch/c_limit,f_auto,q_auto,w_650/https://res.cloudinary.com/ryanntt/image/upload/s--mUY6P4mw--/v1530803654/blog/backward-thinking/forward_backward_thinking.jpg 650w&quot; sizes=&quot;100vw&quot; alt=&quot;Forward backward thinking&quot; loading=&quot;lazy&quot; width=&quot;1400&quot; height=&quot;520&quot; /&gt;
+&lt;figcaption&gt;&lt;p&gt;The goal state can be defined by you, and presence sometimes is not fully known as you thought.&lt;/p&gt;
+&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;It is easy to see why people often choose the forward option: from Initial state to Goal state. However, the reverse might be more logical and often optimal. People tend to think they understand what they have at the presence and constrain themselves to that understanding when planning for the future. Without defining the desired goal, it’s easy to limit yourself and miss out ambitious targets.&lt;/p&gt;
@@ -148,9 +146,14 @@ You have used backward thinking before&lt;/p&gt;
 
 &lt;p&gt;Math is one of the first domains where we learn how to work backward. Let’s consider two following math problems:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Problem 1: A car park has a maximum capacity of 75 cars. What is 2/3 of its capacity?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Problem 2: A car park currently has 50 cars parking. We know that this is only 2/3 of its maximm capacity. What is its maximum capacity then?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Problem 1: A car park has a maximum capacity of 75 cars. What is 2/3 of its capacity?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Problem 2: A car park currently has 50 cars parking. We know that this is only 2/3 of its maximm capacity. What is its maximum capacity then?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;In the first problem, 75 cars is the known initial state, the relation to goal state is operation with 2/3. The solution is times 75 and 2/3, which is working forward.&lt;/p&gt;
 
@@ -173,31 +176,6 @@ You have used backward thinking before&lt;/p&gt;
         <pubDate>Thu, 05 Jul 2018 00:06:00 +0000</pubDate>
         <link>https://ryanntt.com/blog/backward-thinking-in-problem-solving-part1</link>
         <guid isPermaLink="true">https://ryanntt.com/blog/backward-thinking-in-problem-solving-part1</guid>
-      </item>
-    
-      <item>
-        <title>Just do it</title>
-        <description>&lt;p&gt;One day, an email sent to my colleagues inviting us to have a presentation in their conference&lt;/p&gt;
-
-&lt;p&gt;At first, I saw that the conference was quite small and low-key so I didn’t want to join.&lt;/p&gt;
-
-&lt;p&gt;My product manager received the same email and asked if I wanted to talk in the conference. He said I should start giving some talk and share design knowledge.&lt;/p&gt;
-
-&lt;p&gt;I thought part of me never feel ready for any thing. That was my imposter syndrome. I never want to do anything unless I’m ready. And it’s rare for me to reach that ready state. I was comfortable with that. But suggestion by my product manager made a lot of sense, so I decided to give it a try.&lt;/p&gt;
-
-&lt;p&gt;After talking with a few people, I felt like to talk about some problems we have been trying to solve. I felt proud of the work and the team I am working in. A few rounds of iteration and I decided to talk about Designing for Global and Local Markets.&lt;/p&gt;
-
-&lt;p&gt;First challenge was the preparation for the topic. I collected ideas from my product manager, who has worked for several years. I received a few feedback from other product managers/designers in a meet-up about their paint points in designing products for global/local markets. The next step was to align brainstormed ideas and thought in certain structure. I found &lt;a href=&quot;http://www.amazon.com/Global-UX-Design-Research-Connected/dp/012378591X/ref=sr_1_1?ie=UTF8&amp;amp;qid=1460412082&amp;amp;sr=8-1&quot;&gt;Global UX: Design and Research in a Connected World (by Whitney Quesenbery and Daniel Szuc)&lt;/a&gt; a valuable references to understand and organized my presentation. The book helped me stand back from my own opinion and see the problem from perspective of many other experienced designer and product manager mentioned in the book. I even realized certain practices in my design process can be improved and that I should focus on important points.&lt;/p&gt;
-
-&lt;p&gt;The second challenge was in the conference day. It was lucky for me that I talked with audience and other speakers during lunch and before my presentation so I can relate my presentation to their background and expectation better. I was nervous at the first few minutes but then it got better when I was more into it. I came to learn that other companies are having some similar problems and that my next presentation will be better.&lt;/p&gt;
-
-&lt;p&gt;I used to doubt the mentality “Just do it” as I thought it is ignorant to do something before thinking about it. After the presentation, “Just do it” to me is more like a mentality you have when you decide to do something for the first time because you know the best result will come only after the first try.&lt;/p&gt;
-
-&lt;p&gt;In case you want to see my presentation, please find it &lt;a href=&quot;http://www.slideshare.net/ryanntt/designing-for-global-and-local-markets&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 11 Apr 2016 00:06:00 +0000</pubDate>
-        <link>https://ryanntt.com/blog/just-do-it</link>
-        <guid isPermaLink="true">https://ryanntt.com/blog/just-do-it</guid>
       </item>
     
       <item>
@@ -352,7 +330,7 @@ You have used backward thinking before&lt;/p&gt;
         <title>My 2015 - A year of new adventures</title>
         <description>&lt;p&gt;&lt;em&gt;Compared to 2014, this year 2015, I put up a better plan for the year and even had monthly goals. Normally, yearly reviewing is done on a Google doc and kept private. But this year, I want to put it on this blog so I am more accountable to myself.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;work&quot;&gt;Work##&lt;/h2&gt;
+&lt;h2 id=&quot;work&quot;&gt;Work&lt;/h2&gt;
 
 &lt;p&gt;The biggest decision I made this year is to quit the first full-time job. I am not suitable for agency model, where the relationship with client needs a lot of rework to maintain the integrity of doing design and development across different projects and clients. I have moved to a product company where there is one client with one product. It has given me more focus with clear goal everyday going to work.&lt;/p&gt;
 
@@ -360,7 +338,7 @@ You have used backward thinking before&lt;/p&gt;
 
 &lt;p&gt;My new job has brought a new perspective into my design work as I am designing help people to travel better. There are much things for me to learn about travel industry.&lt;/p&gt;
 
-&lt;h2 id=&quot;fear&quot;&gt;Fear##&lt;/h2&gt;
+&lt;h2 id=&quot;fear&quot;&gt;Fear&lt;/h2&gt;
 
 &lt;p&gt;Fear has been the reason I didn’t do and did a lot of things. I discovered some of my fear in 2015:&lt;/p&gt;
 
@@ -374,7 +352,7 @@ You have used backward thinking before&lt;/p&gt;
 
 &lt;p&gt;The fear of not having enough time and being left behind in society is due to the depression I had when applying for new job and felt frustrated when comparing myself to my peers. It was extremely unhealthy. I kept going and found a fulfilling job. Running also taught me how to tackle these fears. I am going to write a blog post about this.&lt;/p&gt;
 
-&lt;h2 id=&quot;health&quot;&gt;Health##&lt;/h2&gt;
+&lt;h2 id=&quot;health&quot;&gt;Health&lt;/h2&gt;
 
 &lt;p&gt;I moved house so the my 2014 gym schedule is interrupted. I decided to join a gym near my new office. Regular excercising has helped me release stress after office hours.&lt;/p&gt;
 
@@ -384,7 +362,7 @@ You have used backward thinking before&lt;/p&gt;
 
 &lt;p&gt;Things planned but not done properly yet this year are meditation and yoga. I could only practice those for a few days then gave up. These are going to be my goals in 2016.&lt;/p&gt;
 
-&lt;h2 id=&quot;travel&quot;&gt;Travel##&lt;/h2&gt;
+&lt;h2 id=&quot;travel&quot;&gt;Travel&lt;/h2&gt;
 
 &lt;p&gt;I travelled to a few cities this year:&lt;/p&gt;
 
@@ -403,7 +381,7 @@ You have used backward thinking before&lt;/p&gt;
 
 &lt;p&gt;During all my trips, the most memorable times are with my friends, new and old ones. I am lucky to have all these friends around me sharing both enjoyable and challenging times.&lt;/p&gt;
 
-&lt;h2 id=&quot;design&quot;&gt;Design##&lt;/h2&gt;
+&lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
 
 &lt;p&gt;I revamped my portfolio website and transfered many cluttered projects to the website you are reading. I wrote more this year and felt more confident with my writing. More articles is my goal in 2015. Next year is a higher quality of writing.&lt;/p&gt;
 
@@ -413,11 +391,11 @@ You have used backward thinking before&lt;/p&gt;
 
 &lt;p&gt;2015 is a year that I learnt different set of new design skills. Knowing my strength and weakness better is what I have been doing.&lt;/p&gt;
 
-&lt;h2 id=&quot;photography&quot;&gt;Photography##&lt;/h2&gt;
+&lt;h2 id=&quot;photography&quot;&gt;Photography&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://chillingkat.com&quot;&gt;My photography blog&lt;/a&gt; has been continued this year. I bought an iPhone 6 Plus and took more photos with it more than my film camera. Film photography with its complication slowed down me. I love the fact that it separates the desire to see photos published on social media, which delay the gratification and improve focus when taking photos. However, the need to capture the moment at right times make mobile photography a better fit.&lt;/p&gt;
 
-&lt;h2 id=&quot;reading&quot;&gt;Reading##&lt;/h2&gt;
+&lt;h2 id=&quot;reading&quot;&gt;Reading&lt;/h2&gt;
 
 &lt;p&gt;My favourite non-fiction book in 2015 is Design is a Job by Mike Monteiro. It really changed how I see my job and approach my career planning as a grand design project.&lt;/p&gt;
 
@@ -447,17 +425,17 @@ You have used backward thinking before&lt;/p&gt;
 
 &lt;p&gt;I tried a few other non-fiction books this year but haven’t finished such as Awake The Giant within by Tony Robbins and Meditations by Marcus Aurelius.&lt;/p&gt;
 
-&lt;h2 id=&quot;volunteering&quot;&gt;Volunteering##&lt;/h2&gt;
+&lt;h2 id=&quot;volunteering&quot;&gt;Volunteering&lt;/h2&gt;
 
 &lt;p&gt;A recent activity that I took up is volunteering for Garden by the Bay. Though it has been only 3 months but I think this is one of the most meaningful acivities I did in 2015.&lt;/p&gt;
 
-&lt;h2 id=&quot;languages&quot;&gt;Languages##&lt;/h2&gt;
+&lt;h2 id=&quot;languages&quot;&gt;Languages&lt;/h2&gt;
 
 &lt;p&gt;It is not a good year for me when it comes to learning new languages. I set a goal of improving my Japanese but then didn’t learn more of it in 2015.&lt;/p&gt;
 
 &lt;p&gt;This year, I learnt Chinese for 3 months but stopped after finishing the beginner class due to busy schedule at new job. One thing I got out of the class is a love for Chinese culture.&lt;/p&gt;
 
-&lt;h2 id=&quot;family&quot;&gt;Family##&lt;/h2&gt;
+&lt;h2 id=&quot;family&quot;&gt;Family&lt;/h2&gt;
 
 &lt;p&gt;The Christmas vacation with parents and sister is my best highlight this year.&lt;/p&gt;
 
@@ -478,7 +456,7 @@ You have used backward thinking before&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;There are many design tools while you may have little time to master them all. How do you choose the “right” one?&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;the-problem-with-tools&quot;&gt;The Problem with Tools##&lt;/h2&gt;
+&lt;h2 id=&quot;the-problem-with-tools&quot;&gt;The Problem with Tools&lt;/h2&gt;
 
 &lt;p&gt;In photography, there is a syndrome called &lt;a href=&quot;https://en.wikipedia.org/wiki/User:GreyCat/Gear_Acquisition_Syndrome&quot;&gt;Gear Acquisition Syndrome, aka GAS&lt;/a&gt;. GAS is a term used to describe an urge to acquire and accumulate lots of gear (Wikipedia). When people with GAS see great art work, they focus mainly on the contribution of tool. They forget who choose the tool and how that person made the choice. I first learnt about GAS in &lt;a href=&quot;http://erickimphotography.com/blog/2014/04/06/fk-gas-gear-acquisition-syndrome/&quot;&gt;this blog post&lt;/a&gt;, written by Eric Kim, a street photographer. I used to be one of those people. I bought and tried out different camera and lens. I never felt satisfied with my cameras.&lt;/p&gt;
 
@@ -488,7 +466,7 @@ You have used backward thinking before&lt;/p&gt;
 
 &lt;p&gt;The more tools I have, the more I think about which tool to use in which situation. I used to feel curious about the tools used to create nice design. But having the tool, I didn’t know how to start creating. The truth is that I don’t create better works with better tools. What I thought previously as better is simply more fancy-looking design. &lt;em&gt;But the core of design is decided by me, not the tools I choose&lt;/em&gt;. What I should have done is to choose one tool and think about how to deliver the best result regarding requirement of situation and limitation of tool, which are always existing regardless of tool I choose.&lt;/p&gt;
 
-&lt;h2 id=&quot;the-path-through-overwhelming-choices&quot;&gt;The Path through (Overwhelming) Choices##&lt;/h2&gt;
+&lt;h2 id=&quot;the-path-through-overwhelming-choices&quot;&gt;The Path through (Overwhelming) Choices&lt;/h2&gt;
 &lt;p&gt;When I was in university, Photoshop(CS4) was my choice for anything related to design. I remember that it got things done but is slow in iterating, especially with interface design. I tried out other tools as well. Illustrator was fast but lack of certain functionalities to fit to my workflow. Firework was right for the job until &lt;a href=&quot;http://blogs.adobe.com/fireworks/2013/05/the-future-of-adobe-fireworks.html&quot;&gt;Adobe stopped supporting it&lt;/a&gt;, which led to its sluggishness on Mac OSX. Then I discovered &lt;a href=&quot;http://www.sketchapp.com/&quot;&gt;Sketch&lt;/a&gt; and immediately saw it as the right fit to my workflow.&lt;/p&gt;
 
 &lt;p&gt;The same thing is happening with prototyping tools. &lt;a href=&quot;http://www.invisionapp.com/&quot;&gt;Invision&lt;/a&gt;, &lt;a href=&quot;http://marvelapp.com/&quot;&gt;Marvel&lt;/a&gt; are good enough for me. But &lt;a href=&quot;http://framerjs.com/&quot;&gt;Framer&lt;/a&gt;, &lt;a href=&quot;https://www.flinto.com/&quot;&gt;Flinto&lt;/a&gt;, &lt;a href=&quot;http://principleformac.com/&quot;&gt;Principle&lt;/a&gt; open more possibilities to achieve a higher level of deliverables. This makes me feel that what was enough is not enough any more. People on all social medias are asking each other what tools they should be using. People feel overwhelmed with choices.&lt;/p&gt;
@@ -505,7 +483,7 @@ You have used backward thinking before&lt;/p&gt;
 
 &lt;p&gt;Yes, but being lazy forces me to be selective with what I spent time on. &lt;em&gt;Learning a new tool means less time on mastering my current tool. Is it a fair trade-off?&lt;/em&gt; Only when I can justify this point, I will start to master that new tool.&lt;/p&gt;
 
-&lt;h2 id=&quot;which-design-tool-should-i-choose&quot;&gt;Which design tool should I choose?##&lt;/h2&gt;
+&lt;h2 id=&quot;which-design-tool-should-i-choose&quot;&gt;Which design tool should I choose?&lt;/h2&gt;
 
 &lt;p&gt;It boils down to answering 3 questions:&lt;/p&gt;
 
